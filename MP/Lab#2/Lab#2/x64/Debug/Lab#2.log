@@ -1,0 +1,28 @@
+﻿Build started 11.02.2026 13:45:02.
+Logging verbosity is set to: Normal.     1>Project "D:\Labs_4_sem\MP\Lab#2\Lab#2.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+         Creating directory "D:\Labs_4_sem\MP\Lab#2\x64\Debug\".
+         Creating directory "Lab#2\x64\Debug\Lab#2.tlog\".
+       InitializeBuildStatus:
+         Creating "Lab#2\x64\Debug\Lab#2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Lab#2\x64\Debug\Lab#2.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Lab#2\x64\Debug\\" /Fd"Lab#2\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Combi.cpp "Lab#2.cpp"
+         Combi.cpp
+         Lab#2.cpp
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Labs_4_sem\MP\Lab#2\x64\Debug\Lab#2.exe" /INCREMENTAL /ILK:"Lab#2\x64\Debug\Lab#2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Labs_4_sem\MP\Lab#2\x64\Debug\Lab#2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Labs_4_sem\MP\Lab#2\x64\Debug\Lab#2.lib" /MACHINE:X64 "Lab#2\x64\Debug\Combi.obj"
+         "Lab#2\x64\Debug\Lab#2.obj"
+         Lab#2.vcxproj -> D:\Labs_4_sem\MP\Lab#2\x64\Debug\Lab#2.exe
+       FinalizeBuildStatus:
+         Deleting file "Lab#2\x64\Debug\Lab#2.tlog\unsuccessfulbuild".
+         Touching "Lab#2\x64\Debug\Lab#2.tlog\Lab#2.lastbuildstate".
+     1>Done Building Project "D:\Labs_4_sem\MP\Lab#2\Lab#2.vcxproj" (Build target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53

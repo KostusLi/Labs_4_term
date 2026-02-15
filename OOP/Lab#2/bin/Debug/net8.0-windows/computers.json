@@ -1,0 +1,110 @@
+[
+  {
+    "Type": 1,
+    "Cpu": {
+      "Manufacturer": 2,
+      "Series": 1,
+      "Model": "\u044B\u0432\u0430\u044B\u0432",
+      "Cores": 1,
+      "Frequency": 1,
+      "MaxFrequency": 1,
+      "Bitness": 1,
+      "CacheL1": 1,
+      "CacheL2": 1,
+      "CacheL3": 1
+    },
+    "Gpu": {
+      "Manufacturer": 1,
+      "Series": 1,
+      "Model": "\u044B\u0432\u0430\u044B\u0432",
+      "Frequency": 1,
+      "Vram": 1
+    },
+    "RamSize": 2,
+    "RamType": 1,
+    "DiskSize": 256,
+    "DiskType": 1,
+    "PurchaseDate": "2026-02-09T23:32:11.1973281+03:00"
+  },
+  {
+    "Type": 1,
+    "Cpu": {
+      "Manufacturer": 2,
+      "Series": 1,
+      "Model": "fdsd",
+      "Cores": 1,
+      "Frequency": 1,
+      "MaxFrequency": 1,
+      "Bitness": 1,
+      "CacheL1": 1,
+      "CacheL2": 1,
+      "CacheL3": 1
+    },
+    "Gpu": {
+      "Manufacturer": 1,
+      "Series": 1,
+      "Model": "sdf",
+      "Frequency": 1,
+      "Vram": 1
+    },
+    "RamSize": 6,
+    "RamType": 1,
+    "DiskSize": 1795,
+    "DiskType": 1,
+    "PurchaseDate": "2026-02-10T15:39:52.4523817+03:00"
+  },
+  {
+    "Type": 1,
+    "Cpu": {
+      "Manufacturer": 2,
+      "Series": 1,
+      "Model": "123123",
+      "Cores": 1,
+      "Frequency": 1,
+      "MaxFrequency": 1,
+      "Bitness": 1,
+      "CacheL1": 1,
+      "CacheL2": 1,
+      "CacheL3": 1
+    },
+    "Gpu": {
+      "Manufacturer": 1,
+      "Series": 1,
+      "Model": "4234234",
+      "Frequency": 1,
+      "Vram": 1
+    },
+    "RamSize": 4,
+    "RamType": 1,
+    "DiskSize": 3128,
+    "DiskType": 1,
+    "PurchaseDate": "2026-02-11T17:35:24.7282467+03:00"
+  },
+  {
+    "Type": 1,
+    "Cpu": {
+      "Manufacturer": 2,
+      "Series": 1,
+      "Model": "543543",
+      "Cores": 1,
+      "Frequency": 1,
+      "MaxFrequency": 1,
+      "Bitness": 1,
+      "CacheL1": 1,
+      "CacheL2": 1,
+      "CacheL3": 1
+    },
+    "Gpu": {
+      "Manufacturer": 1,
+      "Series": 1,
+      "Model": "654365465",
+      "Frequency": 1,
+      "Vram": 1
+    },
+    "RamSize": 3,
+    "RamType": 1,
+    "DiskSize": 2000,
+    "DiskType": 1,
+    "PurchaseDate": "2026-02-11T18:33:19.6582146+03:00"
+  }
+]

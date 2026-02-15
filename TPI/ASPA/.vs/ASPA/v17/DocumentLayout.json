@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Labs_4_sem\\TPI\\ASPA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04D86A2B-4763-44FB-86C3-BD30796B8EC7}|ASPA001\\ASPA001.csproj|d:\\labs_4_sem\\tpi\\aspa\\aspa001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04D86A2B-4763-44FB-86C3-BD30796B8EC7}|ASPA001\\ASPA001.csproj|solutionrelative:aspa001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04D86A2B-4763-44FB-86C3-BD30796B8EC7}|ASPA001\\ASPA001.csproj|d:\\labs_4_sem\\tpi\\aspa\\aspa001\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{04D86A2B-4763-44FB-86C3-BD30796B8EC7}|ASPA001\\ASPA001.csproj|solutionrelative:aspa001\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04D86A2B-4763-44FB-86C3-BD30796B8EC7}|ASPA001\\ASPA001.csproj|d:\\labs_4_sem\\tpi\\aspa\\aspa001\\aspa001.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{04D86A2B-4763-44FB-86C3-BD30796B8EC7}|ASPA001\\ASPA001.csproj|solutionrelative:aspa001\\aspa001.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 578,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Labs_4_sem\\TPI\\ASPA\\ASPA001\\appsettings.json",
+              "RelativeDocumentMoniker": "ASPA001\\appsettings.json",
+              "ToolTip": "D:\\Labs_4_sem\\TPI\\ASPA\\ASPA001\\appsettings.json",
+              "RelativeToolTip": "ASPA001\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-12T14:20:02.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ASPA001",
+              "DocumentMoniker": "D:\\Labs_4_sem\\TPI\\ASPA\\ASPA001\\ASPA001.csproj",
+              "RelativeDocumentMoniker": "ASPA001\\ASPA001.csproj",
+              "ToolTip": "D:\\Labs_4_sem\\TPI\\ASPA\\ASPA001\\ASPA001.csproj",
+              "RelativeToolTip": "ASPA001\\ASPA001.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-12T14:03:58.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\TPI\\ASPA\\ASPA001\\Program.cs",
+              "RelativeDocumentMoniker": "ASPA001\\Program.cs",
+              "ToolTip": "D:\\Labs_4_sem\\TPI\\ASPA\\ASPA001\\Program.cs",
+              "RelativeToolTip": "ASPA001\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T13:32:50.336Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
