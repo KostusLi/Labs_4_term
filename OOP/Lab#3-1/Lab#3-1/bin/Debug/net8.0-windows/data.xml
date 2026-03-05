@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfComputer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Computer>
+    <Type>Server</Type>
+    <Processor>
+      <Manufacturer>Intel</Manufacturer>
+      <Series>i9</Series>
+      <Model>54321</Model>
+      <Cores>1</Cores>
+      <Frequency>1</Frequency>
+    </Processor>
+    <VideoCard>
+      <Manufacturer>Intel</Manufacturer>
+      <Model>lihgli</Model>
+      <MemoryGB>1</MemoryGB>
+    </VideoCard>
+    <RamGB>4</RamGB>
+    <DiskGB>128</DiskGB>
+    <PurchaseDate>2026-02-18T18:26:10.1511881+03:00</PurchaseDate>
+  </Computer>
+  <Computer>
+    <Type>Server</Type>
+    <Processor>
+      <Manufacturer>Intel</Manufacturer>
+      <Series>i7</Series>
+      <Model>12345</Model>
+      <Cores>1</Cores>
+      <Frequency>1</Frequency>
+    </Processor>
+    <VideoCard>
+      <Manufacturer>Intel</Manufacturer>
+      <Model>gkjehir</Model>
+      <MemoryGB>1</MemoryGB>
+    </VideoCard>
+    <RamGB>4</RamGB>
+    <DiskGB>128</DiskGB>
+    <PurchaseDate>2026-02-18T18:26:25.1445754+03:00</PurchaseDate>
+  </Computer>
+</ArrayOfComputer>

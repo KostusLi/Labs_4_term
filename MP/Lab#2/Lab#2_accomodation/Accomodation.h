@@ -8,10 +8,9 @@ namespace combi
     {
         short n;
         short m;
-        short* sset;  // Текущее размещение
-        unsigned long long na; // Счётчик
+        short* sset;
+        unsigned long long na;
 
-        // Вложенные генераторы
         xcombination* cgen;
         permutation* pgen;
 

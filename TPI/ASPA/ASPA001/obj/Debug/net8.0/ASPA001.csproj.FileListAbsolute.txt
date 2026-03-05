@@ -27,3 +27,4 @@ D:\Labs_4_sem\TPI\ASPA\ASPA001\obj\Debug\net8.0\refint\ASPA001.dll
 D:\Labs_4_sem\TPI\ASPA\ASPA001\obj\Debug\net8.0\ASPA001.pdb
 D:\Labs_4_sem\TPI\ASPA\ASPA001\obj\Debug\net8.0\ASPA001.genruntimeconfig.cache
 D:\Labs_4_sem\TPI\ASPA\ASPA001\obj\Debug\net8.0\ref\ASPA001.dll
+D:\Labs_4_sem\TPI\ASPA\ASPA001\obj\Debug\net8.0\ASPA001.sourcelink.json

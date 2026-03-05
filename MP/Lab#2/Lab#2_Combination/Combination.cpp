@@ -6,7 +6,8 @@ namespace combi
     {
         this->n = n;
         this->m = m;
-        this->sset = new short[m];
+        this->sset = new short[m + 2];
+        this->reset();
     }
 
     xcombination::~xcombination()
@@ -14,43 +15,60 @@ namespace combi
         delete[] this->sset;
     }
 
-    // Первое сочетание: 0 1 2 ... m-1
+    void xcombination::reset()
+    {
+        this->nc = 0;
+        for (int i = 0; i < this->m; i++)
+            this->sset[i] = i;
+
+        this->sset[m] = this->n;
+        this->sset[m + 1] = 0;
+    }
+
     short xcombination::getfirst()
     {
-        for (short i = 0; i < m; i++)
-            sset[i] = i;
-
-        return m;
+        return (this->n >= this->m) ? this->m : -1;
     }
 
     short xcombination::getnext()
     {
-        for (short i = m - 1; i >= 0; i--)
+        short rc = getfirst();
+
+        if (rc > 0)
         {
-            if (sset[i] < n - m + i)
+            short j;
+            for (j = 0; this->sset[j] + 1 == this->sset[j + 1]; ++j)
             {
-                sset[i]++;
+                this->sset[j] = j;
+            }
 
-                for (short j = i + 1; j < m; j++)
-                    sset[j] = sset[j - 1] + 1;
-
-                return m;
+            if (j >= this->m)
+            {
+                rc = -1;
+            }
+            else
+            {
+                this->sset[j]++;
+                this->nc++;
             }
         }
-        return -1;
+
+        return rc;
     }
 
-    unsigned long long xcombination::count()
+    short xcombination::ntx(short i)
     {
-        unsigned long long num = 1;
-        unsigned long long den = 1;
+        return this->sset[i];
+    }
 
-        for (int i = 1; i <= m; i++)
-        {
-            num *= (n - i + 1);
-            den *= i;
-        }
+    unsigned long long fact(unsigned long long x)
+    {
+        return (x == 0) ? 1 : (x * fact(x - 1));
+    }
 
-        return num / den;
+    unsigned long long xcombination::count() const
+    {
+        return (this->n >= this->m) ?
+            fact(this->n) / (fact(this->n - this->m) * fact(this->m)) : 0;
     }
 }

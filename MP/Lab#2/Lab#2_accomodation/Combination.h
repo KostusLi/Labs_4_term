@@ -4,15 +4,18 @@ namespace combi
 {
     struct xcombination
     {
-        short n;      // всего элементов
-        short m;      // сколько выбираем
-        short* sset;  // текущая комбинация
+        short n;
+        short m;
+        short* sset;
+        unsigned long long nc;
 
         xcombination(short n = 1, short m = 1);
         ~xcombination();
 
+        void reset();
         short getfirst();
         short getnext();
-        unsigned long long count();
+        short ntx(short i);
+        unsigned long long count() const;
     };
 }

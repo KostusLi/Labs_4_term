@@ -1,0 +1,50 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+
+    <s:String x:Key="AppTitle">Магазин Товаров</s:String>
+    <s:String x:Key="BtnSave">Сохранить</s:String>
+    <s:String x:Key="BtnCancel">Отмена</s:String>
+    <s:String x:Key="BtnBack">🡠 Назад</s:String>
+
+    <s:String x:Key="LoginTitle">Авторизация</s:String>
+    <s:String x:Key="LabelLogin">Логин:</s:String>
+    <s:String x:Key="LabelPassword">Пароль:</s:String>
+    <s:String x:Key="BtnEnter">Войти</s:String>
+    <s:String x:Key="BtnRegister">Регистрация</s:String>
+    <s:String x:Key="Authorization">Авторизация</s:String>
+
+    <s:String x:Key="TitleCatalog">Каталог товаров</s:String>
+    <s:String x:Key="LabelWelcome">Добро пожаловать,</s:String>
+    <s:String x:Key="LabelSearch">Поиск...</s:String>
+    <s:String x:Key="labelPrice">Цена:</s:String>
+    <s:String x:Key="LabelPriceFrom">От</s:String>
+    <s:String x:Key="LabelPriceTo">До</s:String>
+    <s:String x:Key="BtnAddProduct">Добавить товар</s:String>
+    <s:String x:Key="LabelDetails">Детали товара</s:String>
+    <s:String x:Key="LabelDescription">Описание:</s:String>
+    <s:String x:Key="LabelStock">Остаток:</s:String>
+    <s:String x:Key="BtnEdit">Редактировать</s:String>
+    <s:String x:Key="BtnDelete">Удалить</s:String>
+    <s:String x:Key="BtnBuy">В корзину</s:String>
+    <s:String x:Key="BtnLogout">Выйти из профиля</s:String>
+    <s:String x:Key="BtnProfile">Личный кабинет</s:String>
+
+    <s:String x:Key="BtnUndo">↩ Отменить</s:String>
+    <s:String x:Key="BtnRedo">Вернуть ↪</s:String>
+
+    <s:String x:Key="Add">Добавление нового товара</s:String>
+    <s:String x:Key="EditProductTitle">Редактирование товара</s:String>
+    <s:String x:Key="Category">Категория:</s:String>
+    <s:String x:Key="Name">Название товара:</s:String>
+    <s:String x:Key="Sale">Скидка (0.0 - 1.0):</s:String>
+
+    <s:String x:Key="LabelNewLogin">Новый логин:</s:String>
+    <s:String x:Key="LabelNewPassword">Новый пароль:</s:String>
+    <s:String x:Key="LabelSettings">Настройки приложения</s:String>
+    <s:String x:Key="LabelTheme">Тема:</s:String>
+    <s:String x:Key="ThemeLight">☀ Светлая</s:String>
+    <s:String x:Key="ThemeDark">🌙 Темная</s:String>
+    <s:String x:Key="LabelLanguage">Язык / Language:</s:String>
+
+</ResourceDictionary>

@@ -1,41 +1,40 @@
 #include <iostream>
 #include <locale.h>
+#include <iomanip>
 #include "Combination.h"
 
 int main()
 {
     setlocale(LC_ALL, "rus");
 
-    char AA[][2] = { "A", "B", "C", "D" };
-    int n = sizeof(AA) / sizeof(AA[0]);
-    int m = 2;
+    char AA[][2] = { "A", "B", "C", "D", "E" };
+    int N = sizeof(AA) / sizeof(AA[0]);
+    int M = 3;
 
-    std::cout << "\n- Генератор сочетаний -\n";
+    std::cout << "--- Генератор сочетаний ---\n";
     std::cout << "Исходное множество: { ";
-
-    for (int i = 0; i < n; i++)
-        std::cout << AA[i] << (i < n - 1 ? ", " : " ");
-
+    for (int i = 0; i < N; i++)
+        std::cout << AA[i] << (i < N - 1 ? ", " : " ");
     std::cout << "}\n";
-    std::cout << "Выбираем m = " << m << "\n";
+    std::cout << "Генерация сочетаний из " << N << " по " << M << ":\n";
 
-    combi::xcombination c1(n, m);
+    combi::xcombination c(N, M);
+    int n = c.getfirst();
 
-    int size = c1.getfirst();
-
-    while (size >= 0)
+    while (n >= 0)
     {
-        std::cout << "{ ";
+        std::cout << std::setw(3) << c.nc << ": { ";
 
-        for (int i = 0; i < size; i++)
-            std::cout << AA[c1.sset[i]] << (i < size - 1 ? ", " : " ");
-
+        for (int i = 0; i < n; i++)
+        {
+            std::cout << AA[c.ntx(i)] << (i < n - 1 ? ", " : " ");
+        }
         std::cout << "}\n";
 
-        size = c1.getnext();
+        n = c.getnext();
     }
 
-    std::cout << "Всего сочетаний: " << c1.count() << std::endl;
+    std::cout << "Всего: " << c.count() << std::endl;
 
     system("pause");
     return 0;

@@ -54,12 +54,11 @@
               "Title": "Auxil.cpp",
               "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#1\\Auxil.cpp",
               "RelativeDocumentMoniker": "Auxil.cpp",
-              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#1\\Auxil.cpp*",
-              "RelativeToolTip": "Auxil.cpp*",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#1\\Auxil.cpp",
+              "RelativeToolTip": "Auxil.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-10T17:59:23.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T17:59:23.524Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "Auxil.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-10T17:59:15.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T17:59:15.126Z"
             },
             {
               "$type": "Document",
@@ -82,7 +80,7 @@
               "RelativeDocumentMoniker": "Lab#1.cpp",
               "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#1\\Lab#1.cpp",
               "RelativeToolTip": "Lab#1.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACwAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-10T17:57:03.591Z",
               "EditorCaption": ""

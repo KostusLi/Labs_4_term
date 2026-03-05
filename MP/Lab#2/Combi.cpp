@@ -5,12 +5,12 @@ namespace combi
     subset::subset(short n)
     {
         this->n = n;
-        this->mask = 0;           // обязательно
+        this->mask = 0; 
         this->sset = new short[n];
         this->reset();
     }
 
-    subset::~subset()             // чтобы не было утечки
+    subset::~subset()
     {
         delete[] this->sset;
     }
@@ -23,7 +23,7 @@ namespace combi
 
     short subset::getfirst()
     {
-        unsigned long long buf = this->mask;   // вместо __int64
+        unsigned long long buf = this->mask;
         this->sn = 0;
 
         for (short i = 0; i < n; i++)
@@ -56,6 +56,6 @@ namespace combi
 
     unsigned long long subset::count()
     {
-        return (1ULL << this->n);   // ВАЖНО: 1ULL
+        return (1ULL << this->n);
     }
 }

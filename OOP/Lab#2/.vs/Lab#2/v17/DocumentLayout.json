@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{6634778E-9702-46C8-A5D8-45A699F8053C}|Lab#2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6634778E-9702-46C8-A5D8-45A699F8053C}|Lab#2.csproj|d:\\labs_4_sem\\oop\\lab#2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6634778E-9702-46C8-A5D8-45A699F8053C}|Lab#2.csproj|D:\\Labs_4_sem\\OOP\\Lab#2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6634778E-9702-46C8-A5D8-45A699F8053C}|Lab#2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -74,8 +74,7 @@
               "RelativeToolTip": "Videocard.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAA2wEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T15:20:53.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T15:20:53.698Z"
             },
             {
               "$type": "Document",
@@ -99,8 +98,7 @@
               "RelativeToolTip": "Computer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T19:34:49.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T19:34:49.105Z"
             },
             {
               "$type": "Document",
@@ -112,8 +110,7 @@
               "RelativeToolTip": "Processor.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAA2wEYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T19:21:44.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T19:21:44.571Z"
             },
             {
               "$type": "Document",
@@ -123,7 +120,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#2\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAowFQAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAA3wFQAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T18:11:41.198Z",
               "EditorCaption": ""
@@ -151,8 +148,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T17:13:57.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T17:13:57.87Z"
             }
           ]
         },

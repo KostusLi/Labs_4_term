@@ -123,7 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Combi.cpp" />
+    <ClCompile Include="Knapsack.cpp" />
     <ClCompile Include="Lab#2_Bagpack.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Combi.h" />
+    <ClInclude Include="Knapsack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

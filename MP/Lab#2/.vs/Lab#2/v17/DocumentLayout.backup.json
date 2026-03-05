@@ -3,56 +3,31 @@
   "WorkspaceRootPath": "D:\\Labs_4_sem\\MP\\Lab#2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92F7D265-D457-4403-A842-432E12045A43}|Lab#2_Bagpack\\Lab#2_Bagpack.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Bagpack\\Lab#2_Bagpack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{92F7D265-D457-4403-A842-432E12045A43}|Lab#2_Bagpack\\Lab#2_Bagpack.vcxproj|solutionrelative:Lab#2_Bagpack\\Lab#2_Bagpack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5F0C17B-7A9E-430F-9A66-CDA46BF79394}|Lab#2_accomodation\\Lab#2_accomodation.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_accomodation\\Accomodation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5F0C17B-7A9E-430F-9A66-CDA46BF79394}|Lab#2_accomodation\\Lab#2_accomodation.vcxproj|solutionrelative:Lab#2_accomodation\\Accomodation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5F0C17B-7A9E-430F-9A66-CDA46BF79394}|Lab#2_accomodation\\Lab#2_accomodation.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_accomodation\\Accomodation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5F0C17B-7A9E-430F-9A66-CDA46BF79394}|Lab#2_accomodation\\Lab#2_accomodation.vcxproj|solutionrelative:Lab#2_accomodation\\Accomodation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5F0C17B-7A9E-430F-9A66-CDA46BF79394}|Lab#2_accomodation\\Lab#2_accomodation.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_accomodation\\Lab#2_accomodation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5F0C17B-7A9E-430F-9A66-CDA46BF79394}|Lab#2_accomodation\\Lab#2_accomodation.vcxproj|solutionrelative:Lab#2_accomodation\\Lab#2_accomodation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5F0C17B-7A9E-430F-9A66-CDA46BF79394}|Lab#2_accomodation\\Lab#2_accomodation.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Permutation\\Permutation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5F0C17B-7A9E-430F-9A66-CDA46BF79394}|Lab#2_accomodation\\Lab#2_accomodation.vcxproj|solutionrelative:Lab#2_Permutation\\Permutation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5F0C17B-7A9E-430F-9A66-CDA46BF79394}|Lab#2_accomodation\\Lab#2_accomodation.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Combination\\Combination.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5F0C17B-7A9E-430F-9A66-CDA46BF79394}|Lab#2_accomodation\\Lab#2_accomodation.vcxproj|solutionrelative:Lab#2_Combination\\Combination.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5F0C17B-7A9E-430F-9A66-CDA46BF79394}|Lab#2_accomodation\\Lab#2_accomodation.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_accomodation\\Permutation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5F0C17B-7A9E-430F-9A66-CDA46BF79394}|Lab#2_accomodation\\Lab#2_accomodation.vcxproj|solutionrelative:Lab#2_accomodation\\Permutation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6B3F830E-33C6-417B-A2F5-A8B4FD3A16E2}|Lab#2_Permutation\\Lab#2_Permutation.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Permutation\\Permutation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6B3F830E-33C6-417B-A2F5-A8B4FD3A16E2}|Lab#2_Permutation\\Lab#2_Permutation.vcxproj|solutionrelative:Lab#2_Permutation\\Permutation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B3F830E-33C6-417B-A2F5-A8B4FD3A16E2}|Lab#2_Permutation\\Lab#2_Permutation.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Permutation\\Permutation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6B3F830E-33C6-417B-A2F5-A8B4FD3A16E2}|Lab#2_Permutation\\Lab#2_Permutation.vcxproj|solutionrelative:Lab#2_Permutation\\Permutation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5F0C17B-7A9E-430F-9A66-CDA46BF79394}|Lab#2_accomodation\\Lab#2_accomodation.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_accomodation\\Combination.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5F0C17B-7A9E-430F-9A66-CDA46BF79394}|Lab#2_accomodation\\Lab#2_accomodation.vcxproj|solutionrelative:Lab#2_accomodation\\Combination.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Labs_4_sem\\MP\\Lab#2_Accomodation\\Combination.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B47952E3-EA65-4E34-B07E-9DC4864A6478}|Lab#2_Combination\\Lab#2_Combination.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Combination\\Combination.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B47952E3-EA65-4E34-B07E-9DC4864A6478}|Lab#2_Combination\\Lab#2_Combination.vcxproj|solutionrelative:Lab#2_Combination\\Combination.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{92F7D265-D457-4403-A842-432E12045A43}|Lab#2_Bagpack\\Lab#2_Bagpack.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Bagpack\\Knapsack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92F7D265-D457-4403-A842-432E12045A43}|Lab#2_Bagpack\\Lab#2_Bagpack.vcxproj|solutionrelative:Lab#2_Bagpack\\Knapsack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F7D265-D457-4403-A842-432E12045A43}|Lab#2_Bagpack\\Lab#2_Bagpack.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Bagpack\\Lab#2_Bagpack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92F7D265-D457-4403-A842-432E12045A43}|Lab#2_Bagpack\\Lab#2_Bagpack.vcxproj|solutionrelative:Lab#2_Bagpack\\Lab#2_Bagpack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B3F830E-33C6-417B-A2F5-A8B4FD3A16E2}|Lab#2_Permutation\\Lab#2_Permutation.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Permutation\\Lab#2_Permutation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6B3F830E-33C6-417B-A2F5-A8B4FD3A16E2}|Lab#2_Permutation\\Lab#2_Permutation.vcxproj|solutionrelative:Lab#2_Permutation\\Lab#2_Permutation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B47952E3-EA65-4E34-B07E-9DC4864A6478}|Lab#2_Combination\\Lab#2_Combination.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Combination\\Lab#2_Combination.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B47952E3-EA65-4E34-B07E-9DC4864A6478}|Lab#2_Combination\\Lab#2_Combination.vcxproj|solutionrelative:Lab#2_Combination\\Lab#2_Combination.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6440FAE7-3232-41AA-8C3D-43389112EE12}|Lab#2.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6440FAE7-3232-41AA-8C3D-43389112EE12}|Lab#2.vcxproj|solutionrelative:Lab#2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B47952E3-EA65-4E34-B07E-9DC4864A6478}|Lab#2_Combination\\Lab#2_Combination.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Combination\\Combination.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B47952E3-EA65-4E34-B07E-9DC4864A6478}|Lab#2_Combination\\Lab#2_Combination.vcxproj|solutionrelative:Lab#2_Combination\\Combination.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6440FAE7-3232-41AA-8C3D-43389112EE12}|Lab#2.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Combi.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -63,8 +38,50 @@
       "RelativeMoniker": "D:0:0:{6440FAE7-3232-41AA-8C3D-43389112EE12}|Lab#2.vcxproj|solutionrelative:Combi.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6440FAE7-3232-41AA-8C3D-43389112EE12}|Lab#2.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6440FAE7-3232-41AA-8C3D-43389112EE12}|Lab#2.vcxproj|solutionrelative:Lab#2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47952E3-EA65-4E34-B07E-9DC4864A6478}|Lab#2_Combination\\Lab#2_Combination.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Combination\\Lab#2_Combination.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B47952E3-EA65-4E34-B07E-9DC4864A6478}|Lab#2_Combination\\Lab#2_Combination.vcxproj|solutionrelative:Lab#2_Combination\\Lab#2_Combination.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F7D265-D457-4403-A842-432E12045A43}|Lab#2_Bagpack\\Lab#2_Bagpack.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Bagpack\\Combi.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92F7D265-D457-4403-A842-432E12045A43}|Lab#2_Bagpack\\Lab#2_Bagpack.vcxproj|solutionrelative:Lab#2_Bagpack\\Combi.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F7D265-D457-4403-A842-432E12045A43}|Lab#2_Bagpack\\Lab#2_Bagpack.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Bagpack\\Knapsack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92F7D265-D457-4403-A842-432E12045A43}|Lab#2_Bagpack\\Lab#2_Bagpack.vcxproj|solutionrelative:Lab#2_Bagpack\\Knapsack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F7D265-D457-4403-A842-432E12045A43}|Lab#2_Bagpack\\Lab#2_Bagpack.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Bagpack\\Combi.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92F7D265-D457-4403-A842-432E12045A43}|Lab#2_Bagpack\\Lab#2_Bagpack.vcxproj|solutionrelative:Lab#2_Bagpack\\Combi.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B47952E3-EA65-4E34-B07E-9DC4864A6478}|Lab#2_Combination\\Lab#2_Combination.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Combination\\Combination.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B47952E3-EA65-4E34-B07E-9DC4864A6478}|Lab#2_Combination\\Lab#2_Combination.vcxproj|solutionrelative:Lab#2_Combination\\Combination.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6440FAE7-3232-41AA-8C3D-43389112EE12}|Lab#2.vcxproj|D:\\Labs_4_sem\\MP\\Lab#2\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6440FAE7-3232-41AA-8C3D-43389112EE12}|Lab#2.vcxproj|solutionrelative:stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Labs_4_sem\\MP\\Lab#2_Accomodation\\Permutation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Labs_4_sem\\MP\\Lab#2_Accomodation\\Lab#2_Accomodation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Labs_4_sem\\MP\\Lab#2_Accomodation\\Combination.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Labs_4_sem\\MP\\Lab#2_Accomodation\\Accomodation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Labs_4_sem\\MP\\Lab#2_Accomodation\\Accomodation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Labs_4_sem\\MP\\Lab#2_Accomodation\\Permutation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +91,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 578,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,159 +103,256 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Combination.cpp",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2_Accomodation\\Combination.cpp",
+              "RelativeDocumentMoniker": "..\\Lab#2_Accomodation\\Combination.cpp",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2_Accomodation\\Combination.cpp",
+              "RelativeToolTip": "..\\Lab#2_Accomodation\\Combination.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-18T16:32:42.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Lab#2_Accomodation.cpp",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Accomodation\\Lab#2_Accomodation.cpp",
+              "RelativeDocumentMoniker": "Lab#2_Accomodation\\Lab#2_Accomodation.cpp",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Accomodation\\Lab#2_Accomodation.cpp",
+              "RelativeToolTip": "Lab#2_Accomodation\\Lab#2_Accomodation.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-18T16:28:43.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Combination.h",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Accomodation\\Combination.h",
+              "RelativeDocumentMoniker": "Lab#2_Accomodation\\Combination.h",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Accomodation\\Combination.h",
+              "RelativeToolTip": "Lab#2_Accomodation\\Combination.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-18T16:32:31.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Accomodation.cpp",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Accomodation\\Accomodation.cpp",
+              "RelativeDocumentMoniker": "Lab#2_Accomodation\\Accomodation.cpp",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Accomodation\\Accomodation.cpp",
+              "RelativeToolTip": "Lab#2_Accomodation\\Accomodation.cpp",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-18T16:31:29.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Lab#2_Bagpack.cpp",
               "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Bagpack\\Lab#2_Bagpack.cpp",
               "RelativeDocumentMoniker": "Lab#2_Bagpack\\Lab#2_Bagpack.cpp",
               "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Bagpack\\Lab#2_Bagpack.cpp",
               "RelativeToolTip": "Lab#2_Bagpack\\Lab#2_Bagpack.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-11T17:49:13.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T17:49:13.287Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Permutation.h",
-              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_accomodation\\Permutation.h",
-              "RelativeDocumentMoniker": "Lab#2_accomodation\\Permutation.h",
-              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_accomodation\\Permutation.h",
-              "RelativeToolTip": "Lab#2_accomodation\\Permutation.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "Accomodation.h",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Accomodation\\Accomodation.h",
+              "RelativeDocumentMoniker": "Lab#2_Accomodation\\Accomodation.h",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Accomodation\\Accomodation.h",
+              "RelativeToolTip": "Lab#2_Accomodation\\Accomodation.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-11T17:43:01.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T16:31:15.681Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Permutation.h",
               "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Permutation\\Permutation.h",
               "RelativeDocumentMoniker": "Lab#2_Permutation\\Permutation.h",
               "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Permutation\\Permutation.h",
               "RelativeToolTip": "Lab#2_Permutation\\Permutation.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-11T17:42:50.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Combination.h",
-              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_accomodation\\Combination.h",
-              "RelativeDocumentMoniker": "Lab#2_accomodation\\Combination.h",
-              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_accomodation\\Combination.h",
-              "RelativeToolTip": "Lab#2_accomodation\\Combination.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-11T17:42:21.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Combination.h",
-              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Combination\\Combination.h",
-              "RelativeDocumentMoniker": "Lab#2_Combination\\Combination.h",
-              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Combination\\Combination.h",
-              "RelativeToolTip": "Lab#2_Combination\\Combination.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-11T17:42:05.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Accomodation.cpp",
-              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_accomodation\\Accomodation.cpp",
-              "RelativeDocumentMoniker": "Lab#2_accomodation\\Accomodation.cpp",
-              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_accomodation\\Accomodation.cpp",
-              "RelativeToolTip": "Lab#2_accomodation\\Accomodation.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-11T17:33:11.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Accomodation.h",
-              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_accomodation\\Accomodation.h",
-              "RelativeDocumentMoniker": "Lab#2_accomodation\\Accomodation.h",
-              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_accomodation\\Accomodation.h",
-              "RelativeToolTip": "Lab#2_accomodation\\Accomodation.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-11T17:32:09.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Lab#2_accomodation.cpp",
-              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_accomodation\\Lab#2_accomodation.cpp",
-              "RelativeDocumentMoniker": "Lab#2_accomodation\\Lab#2_accomodation.cpp",
-              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_accomodation\\Lab#2_accomodation.cpp",
-              "RelativeToolTip": "Lab#2_accomodation\\Lab#2_accomodation.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-11T17:28:20.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Permutation.cpp",
               "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Permutation\\Permutation.cpp",
               "RelativeDocumentMoniker": "Lab#2_Permutation\\Permutation.cpp",
               "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Permutation\\Permutation.cpp",
               "RelativeToolTip": "Lab#2_Permutation\\Permutation.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAxwFoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-11T13:05:53.422Z",
+              "WhenOpened": "2026-02-18T16:34:06.22Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Knapsack.cpp",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Bagpack\\Knapsack.cpp",
+              "RelativeDocumentMoniker": "Lab#2_Bagpack\\Knapsack.cpp",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Bagpack\\Knapsack.cpp",
+              "RelativeToolTip": "Lab#2_Bagpack\\Knapsack.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-17T18:11:39.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Permutation.cpp",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2_Accomodation\\Permutation.cpp",
+              "RelativeDocumentMoniker": "..\\Lab#2_Accomodation\\Permutation.cpp",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2_Accomodation\\Permutation.cpp",
+              "RelativeToolTip": "..\\Lab#2_Accomodation\\Permutation.cpp",
+              "ViewState": "AgIAAFIAAAAAAAAAAAA0wF8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-18T16:32:16.993Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Combination.cpp",
-              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Combination\\Combination.cpp",
-              "RelativeDocumentMoniker": "Lab#2_Combination\\Combination.cpp",
-              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Combination\\Combination.cpp",
-              "RelativeToolTip": "Lab#2_Combination\\Combination.cpp",
-              "ViewState": "AgIAABQAAAAAAAAAAAAwwCsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-11T12:02:38.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Lab#2_Permutation.cpp",
               "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Permutation\\Lab#2_Permutation.cpp",
               "RelativeDocumentMoniker": "Lab#2_Permutation\\Lab#2_Permutation.cpp",
               "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Permutation\\Lab#2_Permutation.cpp",
               "RelativeToolTip": "Lab#2_Permutation\\Lab#2_Permutation.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-11T13:04:19.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T13:04:19.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
+              "Title": "Combination.cpp",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Combination\\Combination.cpp",
+              "RelativeDocumentMoniker": "Lab#2_Combination\\Combination.cpp",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Combination\\Combination.cpp",
+              "RelativeToolTip": "Lab#2_Combination\\Combination.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-18T16:33:23.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Combi.cpp",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Combi.cpp",
+              "RelativeDocumentMoniker": "Combi.cpp",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Combi.cpp",
+              "RelativeToolTip": "Combi.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAB8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-11T09:47:08.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Combi.h",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Combi.h",
+              "RelativeDocumentMoniker": "Combi.h",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Combi.h",
+              "RelativeToolTip": "Combi.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-11T09:46:56.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Lab#2.cpp",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2.cpp",
+              "RelativeDocumentMoniker": "Lab#2.cpp",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2.cpp",
+              "RelativeToolTip": "Lab#2.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-11T09:40:48.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Lab#2_Combination.cpp",
               "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Combination\\Lab#2_Combination.cpp",
               "RelativeDocumentMoniker": "Lab#2_Combination\\Lab#2_Combination.cpp",
               "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Combination\\Lab#2_Combination.cpp",
               "RelativeToolTip": "Lab#2_Combination\\Lab#2_Combination.cpp",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-11T12:02:00.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T12:02:00.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Combi.cpp",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Bagpack\\Combi.cpp",
+              "RelativeDocumentMoniker": "Lab#2_Bagpack\\Combi.cpp",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Bagpack\\Combi.cpp",
+              "RelativeToolTip": "Lab#2_Bagpack\\Combi.cpp",
+              "ViewState": "AgIAACMAAAAAAAAAAAAhwDIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-17T18:08:27.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Knapsack.h",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Bagpack\\Knapsack.h",
+              "RelativeDocumentMoniker": "Lab#2_Bagpack\\Knapsack.h",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Bagpack\\Knapsack.h",
+              "RelativeToolTip": "Lab#2_Bagpack\\Knapsack.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-17T18:11:23.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Combi.h",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Bagpack\\Combi.h",
+              "RelativeDocumentMoniker": "Lab#2_Bagpack\\Combi.h",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Bagpack\\Combi.h",
+              "RelativeToolTip": "Lab#2_Bagpack\\Combi.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-17T18:08:15.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Combination.h",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Combination\\Combination.h",
+              "RelativeDocumentMoniker": "Lab#2_Combination\\Combination.h",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Combination\\Combination.h",
+              "RelativeToolTip": "Lab#2_Combination\\Combination.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-11T17:42:05.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Permutation.h",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Accomodation\\Permutation.h",
+              "RelativeDocumentMoniker": "Lab#2_Accomodation\\Permutation.h",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2_Accomodation\\Permutation.h",
+              "RelativeToolTip": "Lab#2_Accomodation\\Permutation.h",
+              "ViewState": "AgIAAAEAAAAAAAAAAAA0wBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-18T16:32:01.991Z"
             },
             {
               "$type": "Document",
@@ -251,42 +365,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-11T09:48:11.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Combi.cpp",
-              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Combi.cpp",
-              "RelativeDocumentMoniker": "Combi.cpp",
-              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Combi.cpp",
-              "RelativeToolTip": "Combi.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-11T09:47:08.643Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Combi.h",
-              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Combi.h",
-              "RelativeDocumentMoniker": "Combi.h",
-              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Combi.h",
-              "RelativeToolTip": "Combi.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-11T09:46:56.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Lab#2.cpp",
-              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2.cpp",
-              "RelativeDocumentMoniker": "Lab#2.cpp",
-              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#2\\Lab#2.cpp",
-              "RelativeToolTip": "Lab#2.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-11T09:40:48.656Z"
             }
           ]
         },

@@ -1,0 +1,280 @@
+﻿<Page x:Class="WpfApp1.ShopApp.View.ProductsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="clr-namespace:WpfApp1.ShopApp.View"
+      Title="{DynamicResource TitleCatalog}">
+
+    <Page.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
+    </Page.Resources>
+
+    <Grid Background="{DynamicResource AppBackground}">
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="{DynamicResource ControlBorder}" Padding="10,10,10,0">
+            <WrapPanel Orientation="Horizontal" VerticalAlignment="Center">
+
+                <StackPanel Orientation="Vertical" Margin="0,0,20,10" VerticalAlignment="Center">
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{DynamicResource LabelWelcome}" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock Text=" " FontSize="14"/>
+                        <TextBlock Text="{Binding CurrentUsername}" FontWeight="Bold" FontSize="14"/>
+                    </StackPanel>
+                </StackPanel>
+
+                <Grid Width="200" Margin="0,0,15,10" VerticalAlignment="Center">
+                    <TextBox Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" 
+                             Padding="5" x:Name="SearchBox" VerticalContentAlignment="Center"/>
+                    <TextBlock IsHitTestVisible="False" Text="{DynamicResource LabelSearch}" 
+                               VerticalAlignment="Center" Margin="8,0,0,0" Foreground="Gray">
+                        <TextBlock.Style>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="Visibility" Value="Hidden"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding Text, ElementName=SearchBox}" Value="">
+                                        <Setter Property="Visibility" Value="Visible"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </TextBlock.Style>
+                    </TextBlock>
+                </Grid>
+
+                
+                <ComboBox Background="{DynamicResource PanelBackground}"
+          Foreground="{DynamicResource PrimaryText}"
+          ItemsSource="{Binding Categories}"
+          SelectedItem="{Binding SelectedCategory}"
+          Width="150">
+
+                    <ComboBox.Template>
+                        <ControlTemplate TargetType="ComboBox">
+                            <Grid>
+                                <ToggleButton 
+                    x:Name="ToggleButton" 
+                    Background="{TemplateBinding Background}"
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}"
+                    Focusable="false"
+                    IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
+                    ClickMode="Press">
+                                </ToggleButton>
+
+                                <ContentPresenter x:Name="ContentSite"
+                                  IsHitTestVisible="False" 
+                                  Content="{TemplateBinding SelectionBoxItem}"
+                                  ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
+                                  ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"
+                                  Margin="5,3,23,3"
+                                  VerticalAlignment="Center"
+                                  HorizontalAlignment="Left" />
+
+                                <Popup x:Name="Popup"
+                       Placement="Bottom"
+                       IsOpen="{TemplateBinding IsDropDownOpen}"
+                       AllowsTransparency="True" 
+                       Focusable="False"
+                       PopupAnimation="Slide">
+                                    <Grid x:Name="DropDown"
+                          SnapsToDevicePixels="True"                
+                          MinWidth="{TemplateBinding ActualWidth}"
+                          MaxHeight="{TemplateBinding MaxDropDownHeight}">
+                                        <Border x:Name="DropDownBorder"
+                                Background="{DynamicResource PanelBackground}"
+                                BorderThickness="1"
+                                BorderBrush="{DynamicResource ControlBorder}"/>
+                                        <ScrollViewer Margin="4,6,4,6" SnapsToDevicePixels="True">
+                                            <StackPanel IsItemsHost="True" KeyboardNavigation.DirectionalNavigation="Contained" />
+                                        </ScrollViewer>
+                                    </Grid>
+                                </Popup>
+                            </Grid>
+                        </ControlTemplate>
+                    </ComboBox.Template>
+
+                    <ComboBox.ItemContainerStyle>
+                        <Style TargetType="ComboBoxItem">
+                        </Style>
+                    </ComboBox.ItemContainerStyle>
+                </ComboBox>
+
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,20,10">
+                    <TextBlock Text="{DynamicResource labelPrice}" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                    <TextBox Text="{Binding MinPriceText, UpdateSourceTrigger=PropertyChanged}" 
+                             Width="60" Padding="3" ToolTip="{DynamicResource LabelPriceFrom}" VerticalContentAlignment="Center"/>
+                    <TextBlock Text="-" VerticalAlignment="Center" Margin="5,0"/>
+                    <TextBox Text="{Binding MaxPriceText, UpdateSourceTrigger=PropertyChanged}" 
+                             Width="60" Padding="3" ToolTip="{DynamicResource LabelPriceTo}" VerticalContentAlignment="Center"/>
+                </StackPanel>
+
+                <Button Background="{DynamicResource ControlBorder}" BorderThickness="2" BorderBrush="#444" Foreground="{DynamicResource PrimaryText}" 
+                        Content="{DynamicResource BtnProfile}" Command="{Binding OpenProfileCommand}" 
+                        Margin="0,0,20,10" Padding="10,5" Cursor="Hand" VerticalAlignment="Center"/>
+
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,0,10"
+                            Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVis}}">
+                    <Button Command="{Binding UndoCommand}" Content="{DynamicResource BtnUndo}"
+                            Style="{StaticResource MainButtonStyle}" Background="Gray"
+                            Margin="0,0,5,0" Padding="10,5"/>
+
+                    <Button Command="{Binding RedoCommand}" Content="{DynamicResource BtnRedo}"
+                            Style="{StaticResource MainButtonStyle}" Background="Gray"
+                            Margin="0,0,15,0" Padding="10,5"/>
+
+                    <Button Content="{DynamicResource BtnAddProduct}" Command="{Binding AddCommand}"
+                            Style="{StaticResource MainButtonStyle}" 
+                            BorderThickness="0" Cursor="Hand"/>
+                </StackPanel>
+
+            </WrapPanel>
+        </Border>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="5"/>
+                <ColumnDefinition Width="300"/>
+            </Grid.ColumnDefinitions>
+
+            <ListView Grid.Column="0" ItemsSource="{Binding DisplayProducts}" 
+                      SelectedItem="{Binding SelectedProduct}" 
+                      BorderThickness="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal" />
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <local:ProductCardControl />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" Background="{DynamicResource ControlBorder}"/>
+
+            <Border Grid.Column="2" Background="{DynamicResource PanelBackground}" Padding="20">
+                <StackPanel>
+                    <TextBlock Text="{DynamicResource LabelDetails}" FontSize="18" FontWeight="Bold" Margin="0,0,0,15"/>
+
+                    <StackPanel>
+                        <StackPanel.Style>
+                            <Style TargetType="StackPanel">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding SelectedProduct}" Value="{x:Null}">
+                                        <Setter Property="Visibility" Value="Hidden"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </StackPanel.Style>
+
+                        <TextBlock Text="{Binding SelectedProduct.Title}" FontSize="20" FontWeight="Bold" TextWrapping="Wrap"/>
+                        <TextBlock Text="{Binding SelectedProduct.Category}" Foreground="Gray" Margin="0,5,0,15"/>
+
+                        <TextBlock Text="{DynamicResource LabelDescription}" FontWeight="Bold"/>
+                        <TextBlock Text="{Binding SelectedProduct.Description}" TextWrapping="Wrap" Margin="0,5,0,20"/>
+
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
+
+                            <TextBlock Text="{DynamicResource labelPrice}" 
+                            FontSize="18" FontWeight="Bold" Foreground="{DynamicResource PriceColor}" Margin="0,0,5,0"/>
+
+                            <TextBlock Text="{Binding SelectedProduct.FinalPrice, StringFormat=C}" 
+                            FontSize="18" FontWeight="Bold" Foreground="{DynamicResource PriceColor}"/>
+
+                        </StackPanel>
+
+                        <StackPanel Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVis}}">
+                            <Button Content="{DynamicResource BtnEdit}" Command="{Binding EditCommand}" 
+                                    Background="#2196F3" Foreground="White" Padding="10" Margin="0,0,0,10"/>
+
+                            <Button Content="{DynamicResource BtnDelete}" Command="{Binding DeleteCommand}" 
+                                    Style="{StaticResource DangerButtonStyle}" />
+                        </StackPanel>
+
+                        <Button Command="{Binding AddToCartCommand}" Content="{DynamicResource BtnBuy}" 
+                        Padding="10" Margin="0,15,0,0" FontWeight="Bold" Cursor="Hand">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Background" Value="#FF9800"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsAdmin}" Value="False">
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+
+                                        <MultiTrigger>
+                                            <MultiTrigger.Conditions>
+                                                <Condition Property="IsMouseOver" Value="True"/>
+                                                <Condition Property="IsPressed" Value="False"/>
+                                            </MultiTrigger.Conditions>
+                                            <Setter Property="Background" Value="#FFB74D"/>
+                                            <Setter Property="Effect">
+                                                <Setter.Value>
+                                                    <DropShadowEffect Color="#FF9800" BlurRadius="15" ShadowDepth="0"/>
+                                                </Setter.Value>
+                                            </Setter>
+                                        </MultiTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+        
+        <Border Grid.Row="2" Background="{DynamicResource ControlBorder}" BorderBrush="LightGray" BorderThickness="0,1,0,0">
+            <Grid>
+                <Button Command="{Binding LogoutCommand}" 
+                Content="{DynamicResource BtnLogout}"
+                HorizontalAlignment="Right" VerticalAlignment="Center"
+                Margin="0,0,20,0" Padding="20,8"
+                FontWeight="Bold" Cursor="Hand" Background="{DynamicResource PanelBackground}">
+
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="Transparent"/>
+                            <Setter Property="Foreground" Value="#555"/>
+                            <Setter Property="BorderBrush" Value="#555"/>
+                            <Setter Property="BorderThickness" Value="1"/>
+
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}" 
+                                CornerRadius="5" Padding="{TemplateBinding Padding}">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"
+                                              TextElement.Foreground="{TemplateBinding Foreground}"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#FFEBEE"/>
+                                    <Setter Property="BorderBrush" Value="Red"/>
+                                    <Setter Property="Foreground" Value="Red"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

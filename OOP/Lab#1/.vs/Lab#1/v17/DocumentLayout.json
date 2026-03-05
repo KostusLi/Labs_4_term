@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\Labs_4_sem\\OOP\\Lab#1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|d:\\labs_4_sem\\oop\\lab#1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|D:\\Labs_4_sem\\OOP\\Lab#1\\errorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|solutionrelative:errorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|d:\\labs_4_sem\\oop\\lab#1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|d:\\labs_4_sem\\oop\\lab#1\\errorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|solutionrelative:errorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|D:\\Labs_4_sem\\OOP\\Lab#1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|d:\\labs_4_sem\\oop\\lab#1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|d:\\labs_4_sem\\oop\\lab#1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|d:\\labs_4_sem\\oop\\lab#1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|d:\\labs_4_sem\\oop\\lab#1\\errorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|solutionrelative:errorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|d:\\labs_4_sem\\oop\\lab#1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|d:\\labs_4_sem\\oop\\lab#1\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|d:\\labs_4_sem\\oop\\lab#1\\errorform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|solutionrelative:errorform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|D:\\Labs_4_sem\\OOP\\Lab#1\\errorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|solutionrelative:errorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73FF00BE-9623-40E7-897B-F3D59D5EE380}|Lab#1.csproj|d:\\labs_4_sem\\oop\\lab#1\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 578,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -74,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#1\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
@@ -87,43 +87,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ErrorForm.Designer.cs",
               "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#1\\ErrorForm.Designer.cs",
               "RelativeDocumentMoniker": "ErrorForm.Designer.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#1\\ErrorForm.Designer.cs",
-              "RelativeToolTip": "ErrorForm.Designer.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#1\\ErrorForm.Designer.cs*",
+              "RelativeToolTip": "ErrorForm.Designer.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T13:15:53.317Z"
+              "WhenOpened": "2026-02-09T13:15:53.317Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#1\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAuwKYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-08T17:04:57.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "ErrorForm.cs [Design]",
               "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#1\\ErrorForm.cs",
               "RelativeDocumentMoniker": "ErrorForm.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#1\\ErrorForm.cs [Design]",
-              "RelativeToolTip": "ErrorForm.cs [Design]",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#1\\ErrorForm.cs [Design]*",
+              "RelativeToolTip": "ErrorForm.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T20:00:55.609Z"
+              "WhenOpened": "2026-02-08T20:00:55.609Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -147,19 +149,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ErrorForm.cs",
               "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#1\\ErrorForm.cs",
               "RelativeDocumentMoniker": "ErrorForm.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#1\\ErrorForm.cs",
-              "RelativeToolTip": "ErrorForm.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#1\\ErrorForm.cs*",
+              "RelativeToolTip": "ErrorForm.cs*",
+              "ViewState": "AgIAABkAAAAAAAAAAAAmwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T20:04:15.309Z"
+              "WhenOpened": "2026-02-08T20:04:15.309Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Calculator.cs",
               "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#1\\Calculator.cs",
               "RelativeDocumentMoniker": "Calculator.cs",

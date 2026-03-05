@@ -40,10 +40,9 @@
               "RelativeDocumentMoniker": "ASPA001\\appsettings.json",
               "ToolTip": "D:\\Labs_4_sem\\TPI\\ASPA\\ASPA001\\appsettings.json",
               "RelativeToolTip": "ASPA001\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-12T14:20:02.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T14:20:02.198Z"
             },
             {
               "$type": "Document",
@@ -54,8 +53,7 @@
               "ToolTip": "D:\\Labs_4_sem\\TPI\\ASPA\\ASPA001\\ASPA001.csproj",
               "RelativeToolTip": "ASPA001\\ASPA001.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-12T14:03:58.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T14:03:58.73Z"
             },
             {
               "$type": "Document",
@@ -63,9 +61,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Labs_4_sem\\TPI\\ASPA\\ASPA001\\Program.cs",
               "RelativeDocumentMoniker": "ASPA001\\Program.cs",
-              "ToolTip": "D:\\Labs_4_sem\\TPI\\ASPA\\ASPA001\\Program.cs*",
-              "RelativeToolTip": "ASPA001\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "ToolTip": "D:\\Labs_4_sem\\TPI\\ASPA\\ASPA001\\Program.cs",
+              "RelativeToolTip": "ASPA001\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-12T13:32:50.336Z",
               "EditorCaption": ""

@@ -1,0 +1,44 @@
+[
+  {
+    "Type": 0,
+    "Processor": {
+      "Manufacturer": 0,
+      "Series": "i9",
+      "Model": "54321",
+      "Cores": 1,
+      "Frequency": 1,
+      "Price": 170
+    },
+    "VideoCard": {
+      "Manufacturer": 0,
+      "Model": "lihgli",
+      "MemoryGB": 1,
+      "Price": 180
+    },
+    "RamGB": 4,
+    "DiskGB": 128,
+    "PurchaseDate": "2026-02-18T18:26:10.1511881+03:00",
+    "Price": 402.8
+  },
+  {
+    "Type": 0,
+    "Processor": {
+      "Manufacturer": 0,
+      "Series": "i7",
+      "Model": "12345",
+      "Cores": 1,
+      "Frequency": 1,
+      "Price": 170
+    },
+    "VideoCard": {
+      "Manufacturer": 0,
+      "Model": "gkjehir",
+      "MemoryGB": 1,
+      "Price": 180
+    },
+    "RamGB": 4,
+    "DiskGB": 128,
+    "PurchaseDate": "2026-02-18T18:26:25.1445754+03:00",
+    "Price": 402.8
+  }
+]

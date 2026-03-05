@@ -1,0 +1,341 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|d:\\labs_4_sem\\oop\\lab#3-1\\lab#3-1\\addcomputer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\addcomputer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|d:\\labs_4_sem\\oop\\lab#3-1\\lab#3-1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|d:\\labs_4_sem\\oop\\lab#3-1\\lab#3-1\\computers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\computers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|D:\\Labs_4_sem\\OOP\\Lab#3-1\\lab#3-1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|d:\\labs_4_sem\\oop\\lab#3-1\\lab#3-1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|d:\\labs_4_sem\\oop\\lab#3-1\\lab#3-1\\videocard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\videocard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|d:\\labs_4_sem\\oop\\lab#3-1\\lab#3-1\\serializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\serializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|d:\\labs_4_sem\\oop\\lab#3-1\\lab#3-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|d:\\labs_4_sem\\oop\\lab#3-1\\lab#3-1\\processor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\processor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|d:\\labs_4_sem\\oop\\lab#3-1\\lab#3-1\\notfuturedateattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\notfuturedateattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|d:\\labs_4_sem\\oop\\lab#3-1\\lab#3-1\\errorimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\errorimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|d:\\labs_4_sem\\oop\\lab#3-1\\lab#3-1\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|D:\\Labs_4_sem\\OOP\\Lab#3-1\\lab#3-1\\addcomputer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\addcomputer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|d:\\labs_4_sem\\oop\\lab#3-1\\lab#3-1\\searchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\searchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|D:\\Labs_4_sem\\OOP\\Lab#3-1\\lab#3-1\\aboutanderrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\aboutanderrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|D:\\Labs_4_sem\\OOP\\Lab#3-1\\lab#3-1\\searchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\searchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|d:\\labs_4_sem\\oop\\lab#3-1\\lab#3-1\\aboutanderrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\aboutanderrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|d:\\labs_4_sem\\oop\\lab#3-1\\lab#3-1\\aboutanderrors.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\aboutanderrors.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|d:\\labs_4_sem\\oop\\lab#3-1\\lab#3-1\\addcomputer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7017AD6-5472-4720-9F0E-24E4840FA5BD}|Lab#3-1\\Lab#3-1.csproj|solutionrelative:lab#3-1\\addcomputer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 578,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Serializer.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\Serializer.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\Serializer.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\Serializer.cs",
+              "RelativeToolTip": "Lab#3-1\\Serializer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:26:45.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VideoCard.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\VideoCard.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\VideoCard.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\VideoCard.cs",
+              "RelativeToolTip": "Lab#3-1\\VideoCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:26:28.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\Form1.Designer.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\Form1.Designer.cs",
+              "RelativeToolTip": "Lab#3-1\\Form1.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:27:52.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\Form1.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\Form1.cs",
+              "RelativeToolTip": "Lab#3-1\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:28:25.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\Form1.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\Form1.cs [Design]",
+              "RelativeToolTip": "Lab#3-1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:09:52.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Computers.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\Computers.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\Computers.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\Computers.cs",
+              "RelativeToolTip": "Lab#3-1\\Computers.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAywA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T14:04:51.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddComputer.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\AddComputer.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\AddComputer.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\AddComputer.cs",
+              "RelativeToolTip": "Lab#3-1\\AddComputer.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAIBCwFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T13:24:56.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\Program.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\Program.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\Program.cs",
+              "RelativeToolTip": "Lab#3-1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:36:55.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Processor.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\Processor.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\Processor.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\Processor.cs",
+              "RelativeToolTip": "Lab#3-1\\Processor.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA5wCwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T14:19:25.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotFutureDateAttribute.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\NotFutureDateAttribute.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\NotFutureDateAttribute.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\NotFutureDateAttribute.cs",
+              "RelativeToolTip": "Lab#3-1\\NotFutureDateAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:27:20.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorImage.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\ErrorImage.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\ErrorImage.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\ErrorImage.cs",
+              "RelativeToolTip": "Lab#3-1\\ErrorImage.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T21:50:44.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\Enums.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\Enums.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\Enums.cs",
+              "RelativeToolTip": "Lab#3-1\\Enums.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:25:46.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddComputer.cs [Design]",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\AddComputer.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\AddComputer.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\AddComputer.cs [Design]",
+              "RelativeToolTip": "Lab#3-1\\AddComputer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T14:33:12.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SearchForm.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\SearchForm.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\SearchForm.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\SearchForm.cs",
+              "RelativeToolTip": "Lab#3-1\\SearchForm.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAywF0AAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T20:06:53.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AboutAndErrors.cs [Design]",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\AboutAndErrors.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\AboutAndErrors.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\AboutAndErrors.cs [Design]",
+              "RelativeToolTip": "Lab#3-1\\AboutAndErrors.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T21:44:25.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AboutAndErrors.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\AboutAndErrors.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\AboutAndErrors.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\AboutAndErrors.cs",
+              "RelativeToolTip": "Lab#3-1\\AboutAndErrors.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIAxwAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T21:37:37.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SearchForm.cs [Design]",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\SearchForm.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\SearchForm.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\SearchForm.cs [Design]",
+              "RelativeToolTip": "Lab#3-1\\SearchForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T19:45:59.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AboutAndErrors.Designer.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\AboutAndErrors.Designer.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\AboutAndErrors.Designer.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\AboutAndErrors.Designer.cs",
+              "RelativeToolTip": "Lab#3-1\\AboutAndErrors.Designer.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAMBDwCgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T21:44:12.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddComputer.Designer.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\AddComputer.Designer.cs",
+              "RelativeDocumentMoniker": "Lab#3-1\\AddComputer.Designer.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\Lab#3-1\\Lab#3-1\\AddComputer.Designer.cs",
+              "RelativeToolTip": "Lab#3-1\\AddComputer.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA1wBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T13:36:24.745Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

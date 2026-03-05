@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+
+    <s:String x:Key="IsThemeDictionary">Light</s:String>
+
+    <SolidColorBrush x:Key="AppBackground" Color="#F5F5F5"/>
+    <SolidColorBrush x:Key="PanelBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="PrimaryText" Color="#333333"/>
+    <SolidColorBrush x:Key="SecondaryText" Color="#666666"/>
+    <SolidColorBrush x:Key="ControlBorder" Color="#CCCCCC"/>
+    <SolidColorBrush x:Key="HeaderText" Color="#000000"/>
+    <SolidColorBrush x:Key="PriceColor" Color="#FF0000"/>
+    
+</ResourceDictionary>

@@ -25,7 +25,6 @@ int main()
         std::cout << std::setw(3) << s.na << ": { ";
         for (int i = 0; i < M; i++)
         {
-            // s.ntx(i) возвращает индекс элемента из исходного множества
             std::cout << AA[s.ntx(i)] << (i < M - 1 ? ", " : " ");
         }
         std::cout << "}\n";

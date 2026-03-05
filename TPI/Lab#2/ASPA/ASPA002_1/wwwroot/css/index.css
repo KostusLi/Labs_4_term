@@ -1,0 +1,36 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.green {
+    color: #008000;
+}
+
+.magenta {
+    color: #ff00ff;
+}
+
+.blue {
+    color: #0000ff;
+}
+
+img {
+    margin-top: 20px;
+    max-width: 300px;
+    border-radius: 8px;
+    display: block;
+}
