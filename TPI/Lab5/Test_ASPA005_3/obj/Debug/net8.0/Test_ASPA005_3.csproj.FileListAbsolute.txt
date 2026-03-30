@@ -1,0 +1,15 @@
+D:\Labs_4_sem\TPI\Lab5\Test_ASPA005_3\bin\Debug\net8.0\Test_ASPA005_3.exe
+D:\Labs_4_sem\TPI\Lab5\Test_ASPA005_3\bin\Debug\net8.0\Test_ASPA005_3.deps.json
+D:\Labs_4_sem\TPI\Lab5\Test_ASPA005_3\bin\Debug\net8.0\Test_ASPA005_3.runtimeconfig.json
+D:\Labs_4_sem\TPI\Lab5\Test_ASPA005_3\bin\Debug\net8.0\Test_ASPA005_3.dll
+D:\Labs_4_sem\TPI\Lab5\Test_ASPA005_3\bin\Debug\net8.0\Test_ASPA005_3.pdb
+D:\Labs_4_sem\TPI\Lab5\Test_ASPA005_3\obj\Debug\net8.0\Test_ASPA005_3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Labs_4_sem\TPI\Lab5\Test_ASPA005_3\obj\Debug\net8.0\Test_ASPA005_3.AssemblyInfoInputs.cache
+D:\Labs_4_sem\TPI\Lab5\Test_ASPA005_3\obj\Debug\net8.0\Test_ASPA005_3.AssemblyInfo.cs
+D:\Labs_4_sem\TPI\Lab5\Test_ASPA005_3\obj\Debug\net8.0\Test_ASPA005_3.csproj.CoreCompileInputs.cache
+D:\Labs_4_sem\TPI\Lab5\Test_ASPA005_3\obj\Debug\net8.0\Test_ASPA005_3.sourcelink.json
+D:\Labs_4_sem\TPI\Lab5\Test_ASPA005_3\obj\Debug\net8.0\Test_ASPA005_3.dll
+D:\Labs_4_sem\TPI\Lab5\Test_ASPA005_3\obj\Debug\net8.0\refint\Test_ASPA005_3.dll
+D:\Labs_4_sem\TPI\Lab5\Test_ASPA005_3\obj\Debug\net8.0\Test_ASPA005_3.pdb
+D:\Labs_4_sem\TPI\Lab5\Test_ASPA005_3\obj\Debug\net8.0\Test_ASPA005_3.genruntimeconfig.cache
+D:\Labs_4_sem\TPI\Lab5\Test_ASPA005_3\obj\Debug\net8.0\ref\Test_ASPA005_3.dll

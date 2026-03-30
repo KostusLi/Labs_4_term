@@ -1,0 +1,39 @@
+﻿<Page x:Class="WpfApp1.ShopApp.View.DatabaseAdminPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Администрирование БД">
+
+    <Grid Background="{DynamicResource AppBackground}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="{DynamicResource PanelBackground}" Padding="15" BorderBrush="{DynamicResource ControlBorder}" BorderThickness="0,0,0,1">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+
+                <Button Command="{Binding GoBackCommand}" Content="🡠 Назад" 
+                        Background="Transparent" BorderThickness="0" 
+                        Foreground="{DynamicResource PrimaryText}" Cursor="Hand" Margin="0,0,20,0" FontWeight="Bold"/>
+
+                <TextBlock Text="Просмотр таблиц БД:" FontWeight="Bold" FontSize="16" Foreground="{DynamicResource PrimaryText}" Margin="0,0,20,0" VerticalAlignment="Center"/>
+
+                <Button Command="{Binding LoadUsersCommand}" Content="Users" Style="{StaticResource MainButtonStyle}" Margin="0,0,10,0" Padding="15,5"/>
+                <Button Command="{Binding LoadProductsCommand}" Content="Products" Style="{StaticResource MainButtonStyle}" Margin="0,0,10,0" Padding="15,5"/>
+                <Button Command="{Binding LoadCategoriesCommand}" Content="Categories" Style="{StaticResource MainButtonStyle}" Margin="0,0,10,0" Padding="15,5"/>
+                <Button Command="{Binding LoadRolesCommand}" Content="Roles" Style="{StaticResource MainButtonStyle}" Padding="15,5"/>
+
+            </StackPanel>
+        </Border>
+
+        <DataGrid Grid.Row="1" ItemsSource="{Binding CurrentTableData}" 
+                  AutoGenerateColumns="True" IsReadOnly="True" 
+                  Margin="10" Background="{DynamicResource PanelBackground}"
+                  RowBackground="{DynamicResource AppBackground}"
+                  AlternatingRowBackground="{DynamicResource PanelBackground}"
+                  Foreground="{DynamicResource PrimaryText}"
+                  HeadersVisibility="Column" GridLinesVisibility="Horizontal"
+                  BorderBrush="{DynamicResource ControlBorder}" BorderThickness="1">
+        </DataGrid>
+    </Grid>
+</Page>

@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4BECAFB4-312E-4A37-836A-19EE3D568F29}|Lab#4_4\\Lab#4_4.vcxproj|D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4_4\\Lab#4_4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4BECAFB4-312E-4A37-836A-19EE3D568F29}|Lab#4_4\\Lab#4_4.vcxproj|solutionrelative:Lab#4_4\\Lab#4_4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BECAFB4-312E-4A37-836A-19EE3D568F29}|Lab#4_4\\Lab#4_4.vcxproj|D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4_4\\LCS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4BECAFB4-312E-4A37-836A-19EE3D568F29}|Lab#4_4\\Lab#4_4.vcxproj|solutionrelative:Lab#4_4\\LCS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1BC340-DAB2-4A24-ADD1-D9EDEAC0E466}|Lab#4\\Lab#4.vcxproj|D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4\\Levenshtein.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C1BC340-DAB2-4A24-ADD1-D9EDEAC0E466}|Lab#4\\Lab#4.vcxproj|solutionrelative:Lab#4\\Levenshtein.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9C1BC340-DAB2-4A24-ADD1-D9EDEAC0E466}|Lab#4\\Lab#4.vcxproj|D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4\\Lab#4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9C1BC340-DAB2-4A24-ADD1-D9EDEAC0E466}|Lab#4\\Lab#4.vcxproj|solutionrelative:Lab#4\\Lab#4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BECAFB4-312E-4A37-836A-19EE3D568F29}|Lab#4_4\\Lab#4_4.vcxproj|D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4_4\\LCS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4BECAFB4-312E-4A37-836A-19EE3D568F29}|Lab#4_4\\Lab#4_4.vcxproj|solutionrelative:Lab#4_4\\LCS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BECAFB4-312E-4A37-836A-19EE3D568F29}|Lab#4_4\\Lab#4_4.vcxproj|D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4_4\\LCH.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4BECAFB4-312E-4A37-836A-19EE3D568F29}|Lab#4_4\\Lab#4_4.vcxproj|solutionrelative:Lab#4_4\\LCH.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1BC340-DAB2-4A24-ADD1-D9EDEAC0E466}|Lab#4\\Lab#4.vcxproj|D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4\\Levenshtein.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C1BC340-DAB2-4A24-ADD1-D9EDEAC0E466}|Lab#4\\Lab#4.vcxproj|solutionrelative:Lab#4\\Levenshtein.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 816,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +50,91 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LCH.h",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4_4\\LCH.h",
+              "RelativeDocumentMoniker": "Lab#4_4\\LCH.h",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4_4\\LCH.h",
+              "RelativeToolTip": "Lab#4_4\\LCH.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-11T12:57:31.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LCS.cpp",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4_4\\LCS.cpp",
+              "RelativeDocumentMoniker": "Lab#4_4\\LCS.cpp",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4_4\\LCS.cpp",
+              "RelativeToolTip": "Lab#4_4\\LCS.cpp",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-11T12:56:51.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LCS.h",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4_4\\LCS.h",
+              "RelativeDocumentMoniker": "Lab#4_4\\LCS.h",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4_4\\LCS.h",
+              "RelativeToolTip": "Lab#4_4\\LCS.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-11T12:56:28.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Lab#4_4.cpp",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4_4\\Lab#4_4.cpp",
+              "RelativeDocumentMoniker": "Lab#4_4\\Lab#4_4.cpp",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4_4\\Lab#4_4.cpp",
+              "RelativeToolTip": "Lab#4_4\\Lab#4_4.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-11T12:56:12.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Levenshtein.cpp",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4\\Levenshtein.cpp",
+              "RelativeDocumentMoniker": "Lab#4\\Levenshtein.cpp",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4\\Levenshtein.cpp",
+              "RelativeToolTip": "Lab#4\\Levenshtein.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-10T19:05:45.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Levenshtein.h",
+              "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4\\Levenshtein.h",
+              "RelativeDocumentMoniker": "Lab#4\\Levenshtein.h",
+              "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4\\Levenshtein.h",
+              "RelativeToolTip": "Lab#4\\Levenshtein.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-10T19:05:26.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Lab#4.cpp",
               "DocumentMoniker": "D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4\\Lab#4.cpp",
               "RelativeDocumentMoniker": "Lab#4\\Lab#4.cpp",
               "ToolTip": "D:\\Labs_4_sem\\MP\\Lab#4\\Lab#4\\Lab#4\\Lab#4.cpp",
               "RelativeToolTip": "Lab#4\\Lab#4.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-04T16:48:46.137Z",
               "EditorCaption": ""

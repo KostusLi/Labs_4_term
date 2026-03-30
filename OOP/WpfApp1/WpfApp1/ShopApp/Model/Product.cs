@@ -45,6 +45,13 @@ namespace WpfApp1.ShopApp.Model
             }
         }
 
+        private byte[] _imageData;
+        public byte[] ImageData
+        {
+            get => _imageData;
+            set { _imageData = value; OnPropertyChanged(); }
+        }
+
         public double Discount
         {
             get => _discount;

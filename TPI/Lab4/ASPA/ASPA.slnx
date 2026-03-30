@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="ASPA004_1/ASPA004_1.csproj" />
+  <Project Path="ASPA004_2/ASPA004_2.csproj" />
+  <Project Path="ASPA004_3/ASPA004_3.csproj" Id="04731740-c47a-40f0-9de2-9968d88f69fd" />
+  <Project Path="DAL004/DAL004.csproj" />
+  <Project Path="Test_DAL004/Test_DAL004.csproj" />
+</Solution>

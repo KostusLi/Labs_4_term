@@ -1,28 +1,42 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using WpfApp1.ShopApp.Model;
 
 namespace WpfApp1.ShopApp.View
 {
-    /// <summary>
-    /// Interaction logic for ProductCardControl.xaml
-    /// </summary>
     public partial class ProductCardControl : UserControl
     {
+        public static readonly RoutedUICommand ResetRatingCmd = new RoutedUICommand(
+            "Сбросить рейтинг",
+            "ResetRatingCmd",
+            typeof(ProductCardControl),
+            new InputGestureCollection()
+            {
+                new KeyGesture(Key.R, ModifierKeys.Control)
+            }
+        );
+
         public ProductCardControl()
         {
             InitializeComponent();
+        }
+
+        private void ResetRatingCmd_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            if (this.DataContext is Product currentProduct)
+            {
+                currentProduct.Rating = 0;
+            }
+        }
+
+        private void CardRating_PreviewRatingChanged(object sender, RoutedPropertyChangedEventArgs<int> e)
+        {
+            if (e.NewValue == 1)
+            {
+                MessageBox.Show("Оценка в 1 звезду запрещена политикой магазина!", "Туннелирование (Tunneling)");
+                e.Handled = true;
+            }
         }
     }
 }

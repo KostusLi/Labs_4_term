@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 using System.Windows;
 using WpfApp1.ShopApp.Commands;
 using WpfApp1.ShopApp.Model;
-using WpfApp1.ShopApp.ViewModels;
+using Microsoft.Win32;
+using System.IO;
 
 namespace WpfApp1.ShopApp.ModelView
 {
     public class AddEditProductViewModel: BaseViewModel
     {
+        public RelayCommand SelectImageCommand { get; }
         private Product _currentProduct;
         public Product CurrentProduct
         {
@@ -51,6 +53,23 @@ namespace WpfApp1.ShopApp.ModelView
 
             SaveCommand = new RelayCommand(ExecuteSave, CanExecuteSave);
             CancelCommand = new RelayCommand(ExecuteCancel);
+            SelectImageCommand = new RelayCommand(ExecuteSelectImage);
+        }
+
+        private void ExecuteSelectImage(object obj)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog
+            {
+                Title = "Выберите фотографию товара",
+                Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp"
+            };
+
+            if (openFileDialog.ShowDialog() == true)
+            {
+                byte[] imageBytes = File.ReadAllBytes(openFileDialog.FileName);
+
+                CurrentProduct.ImageData = imageBytes;
+            }
         }
 
         private bool CanExecuteSave(object obj)

@@ -1,73 +1,48 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using WpfApp1.ShopApp.Commands;
+using WpfApp1.ShopApp.Database;
 using WpfApp1.ShopApp.Model;
 using WpfApp1.ShopApp.View;
-using WpfApp1.ShopApp.ViewModels;
 
 namespace WpfApp1.ShopApp.ModelView
 {
     public class LoginViewModel : BaseViewModel
     {
-        private List<User> _users;
+        private readonly UserRepository _userRepository;
 
         private string _username;
-        public string Username
-        {
-            get => _username;
-            set { _username = value; OnPropertyChanged(); }
-        }
+        public string Username { get => _username; set { _username = value; OnPropertyChanged(); } }
 
         private string _password;
-        public string Password
-        {
-            get => _password;
-            set { _password = value; OnPropertyChanged(); }
-        }
+        public string Password { get => _password; set { _password = value; OnPropertyChanged(); } }
 
         private string _errorMessage;
-        public string ErrorMessage
-        {
-            get => _errorMessage;
-            set { _errorMessage = value; OnPropertyChanged(); }
-        }
+        public string ErrorMessage { get => _errorMessage; set { _errorMessage = value; OnPropertyChanged(); } }
 
         public RelayCommand LoginCommand { get; }
         public RelayCommand RegisterCommand { get; }
 
         public LoginViewModel()
         {
-            _users = new List<User>
-            {
-                new User()
-            };
+            _userRepository = new UserRepository();
 
-            LoginCommand = new RelayCommand(ExecuteLogin, CanExecuteLogin);
-            RegisterCommand = new RelayCommand(ExecuteRegister, CanExecuteRegister);
+            LoginCommand = new RelayCommand(ExecuteLogin, CanExecute);
+            RegisterCommand = new RelayCommand(ExecuteRegister, CanExecute);
         }
 
-        private bool CanExecuteLogin(object obj)
-        {
-            return !string.IsNullOrWhiteSpace(Username) && !string.IsNullOrWhiteSpace(Password);
-        }
+        private bool CanExecute(object obj) => !string.IsNullOrWhiteSpace(Username) && !string.IsNullOrWhiteSpace(Password);
 
-        private void ExecuteLogin(object obj)
+        private async void ExecuteLogin(object obj)
         {
             ErrorMessage = string.Empty;
 
-            var foundUser = _users.FirstOrDefault(u => u.Username == Username && u.Password == Password);
+            User foundUser = await _userRepository.GetUserAsync(Username, Password);
 
             if (foundUser != null)
             {
-                var productsPage = new ProductsPage(foundUser);
-
                 if (Application.Current.MainWindow is MainWindow mainWindow)
                 {
-                    mainWindow.MainFrame.Navigate(productsPage);
+                    mainWindow.MainFrame.Navigate(new ProductsPage(foundUser));
                 }
             }
             else
@@ -76,28 +51,22 @@ namespace WpfApp1.ShopApp.ModelView
             }
         }
 
-        private bool CanExecuteRegister(object obj)
-        {
-            return !string.IsNullOrWhiteSpace(Username) && !string.IsNullOrWhiteSpace(Password);
-        }
-
-        private void ExecuteRegister(object obj)
+        private async void ExecuteRegister(object obj)
         {
             ErrorMessage = string.Empty;
 
-            if (_users.Any(u => u.Username == Username))
+            bool exists = await _userRepository.UserExistsAsync(Username);
+            if (exists)
             {
                 ErrorMessage = "Пользователь с таким логином уже существует!";
                 return;
             }
 
             User newUser = new User(Username, Password);
-            _users.Add(newUser);
+            await _userRepository.AddUserAsync(newUser);
 
             ErrorMessage = "Регистрация успешна! Теперь вы можете войти.";
-
             Password = string.Empty;
         }
-
     }
 }

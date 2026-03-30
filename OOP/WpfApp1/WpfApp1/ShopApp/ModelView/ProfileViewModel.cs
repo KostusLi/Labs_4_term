@@ -1,13 +1,16 @@
 ﻿using System.Windows;
 using WpfApp1.ShopApp.Commands;
+using WpfApp1.ShopApp.Database;
 using WpfApp1.ShopApp.Model;
 using WpfApp1.ShopApp.View;
 
-namespace WpfApp1.ShopApp.ViewModels
+namespace WpfApp1.ShopApp.ModelView
 {
     public class ProfileViewModel : BaseViewModel
     {
         private User _currentUser;
+
+        private readonly UserRepository _userRepository = new UserRepository();
 
         private string _editUsername;
         public string EditUsername
@@ -47,11 +50,13 @@ namespace WpfApp1.ShopApp.ViewModels
             return !string.IsNullOrWhiteSpace(EditUsername) && !string.IsNullOrWhiteSpace(EditPassword);
         }
 
-        private void ExecuteSave(object obj)
+        private async void ExecuteSave(object obj)
         {
             _currentUser.Username = EditUsername;
             _currentUser.Password = EditPassword;
-            MessageBox.Show("Данные профиля успешно обновлены!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+
+            await _userRepository.UpdateUserAsync(_currentUser);
+
         }
 
         private void ExecuteGoBack(object obj)

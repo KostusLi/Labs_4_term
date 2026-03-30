@@ -1,6 +1,7 @@
 ﻿using System.Configuration;
 using System.Data;
 using System.Windows;
+using WpfApp1.ShopApp.Database;
 
 namespace WpfApp1
 {
@@ -9,6 +10,20 @@ namespace WpfApp1
     /// </summary>
     public partial class App : Application
     {
+
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+
+            bool isDatabaseReady = DatabaseInitializer.Initialize();
+
+            if (!isDatabaseReady)
+            {
+                this.Shutdown();
+                return;
+            }
+        }
+
         public static void ChangeLanguage(string languageCode)
         {
             ResourceDictionary dict = new ResourceDictionary();

@@ -5,7 +5,13 @@
     <Compile Update="ShopApp\View\AddEditProductWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ShopApp\View\DatabaseAdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ShopApp\View\LoginPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ShopApp\View\NumericUpDown.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ShopApp\View\ProductCardControl.xaml.cs">
@@ -15,6 +21,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ShopApp\View\ProfilePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ShopApp\View\RatingControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfApp1.ShopApp.Model;
-using WpfApp1.ShopApp.ViewModels;
+using WpfApp1.ShopApp.ModelView;
 
 namespace WpfApp1.ShopApp.View
 {

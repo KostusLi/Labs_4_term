@@ -54,5 +54,19 @@
     "MainImagePath": null,
     "AdditionalImages": [],
     "SoldCount": 0
+  },
+  {
+    "Id": "7f2ccfc2-5a52-4313-b132-fe609c59d347",
+    "Title": "frfrf",
+    "Description": "ffrf",
+    "Category": "rfrf",
+    "Manufacturer": null,
+    "Price": 0,
+    "Discount": 0,
+    "StockQuantity": 153,
+    "Rating": 0,
+    "MainImagePath": null,
+    "AdditionalImages": [],
+    "SoldCount": 0
   }
 ]

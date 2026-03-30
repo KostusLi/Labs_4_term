@@ -114,9 +114,18 @@
                              Width="60" Padding="3" ToolTip="{DynamicResource LabelPriceTo}" VerticalContentAlignment="Center"/>
                 </StackPanel>
 
-                <Button Background="{DynamicResource ControlBorder}" BorderThickness="2" BorderBrush="#444" Foreground="{DynamicResource PrimaryText}" 
-                        Content="{DynamicResource BtnProfile}" Command="{Binding OpenProfileCommand}" 
-                        Margin="0,0,20,10" Padding="10,5" Cursor="Hand" VerticalAlignment="Center"/>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,20,10">
+
+                    <Button Background="{DynamicResource ControlBorder}" BorderThickness="2" BorderBrush="#444" Foreground="{DynamicResource PrimaryText}" 
+                    Content="{DynamicResource BtnProfile}" Command="{Binding OpenProfileCommand}" 
+                    Margin="0,0,10,0" Padding="10,5" Cursor="Hand"/>
+
+                    <!-- НОВАЯ КНОПКА ДЛЯ АДМИНА -->
+                    <Button Background="#FF5722" Foreground="White" BorderThickness="0" 
+                    Content="Управление БД" Command="{Binding OpenDbAdminCommand}" 
+                    Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVis}}"
+                    Padding="10,5" Cursor="Hand"/>
+                </StackPanel>
 
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,0,10"
                             Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVis}}">
@@ -147,6 +156,32 @@
                       SelectedItem="{Binding SelectedProduct}" 
                       BorderThickness="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
 
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="Background" Value="Transparent"/>
+                        <Setter Property="BorderThickness" Value="0"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="ListViewItem">
+                                    <Border x:Name="Bd" Background="Transparent" Padding="0" CornerRadius="8">
+                                        <ContentPresenter />
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="Bd" Property="Background" Value="{DynamicResource ControlBorder}"/>
+                                        </Trigger>
+                                        <Trigger Property="IsSelected" Value="True">
+                                            <Setter TargetName="Bd" Property="Background" Value="{DynamicResource ControlBorder}"/>
+                                            <Setter TargetName="Bd" Property="BorderBrush" Value="#2196F3"/>
+                                            <Setter TargetName="Bd" Property="BorderThickness" Value="2"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ListView.ItemContainerStyle>
+                
                 <ListView.ItemsPanel>
                     <ItemsPanelTemplate>
                         <WrapPanel Orientation="Horizontal" />

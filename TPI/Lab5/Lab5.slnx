@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ASPA005_2/ASPA005_2.csproj" Id="c1d368c1-4488-42ac-8039-f0cd77e17cd0" />
+  <Project Path="ASPA005_3/ASPA005_3.csproj" Id="2d7afdef-6e88-40de-9d54-afec1a4059a5" />
+  <Project Path="Lab5/ASPA005_1.csproj" />
+  <Project Path="Test_ASPA005_3/Test_ASPA005_3.csproj" Id="af66ca04-3fa3-4499-9fe7-5455f11183e1" />
+</Solution>

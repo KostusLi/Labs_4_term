@@ -124,6 +124,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Lab#4.cpp" />
+    <ClCompile Include="Levenshtein.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Levenshtein.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

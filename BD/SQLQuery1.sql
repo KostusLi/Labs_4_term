@@ -1,1 +1,0 @@
-ALTER AUTHORIZATION ON DATABASE::[ХаткевичПРОДАЖИ] TO [sa];

@@ -1,0 +1,72 @@
+﻿ import { IFormState, TFormAction } from "./types"
+
+
+export const initialState: IFormState = {
+    currentStep: 1,
+    formData: {
+        email: '',
+        password: '',
+        username: '',
+        city: '',
+        occupation: '',
+        acceptedTerms: false,
+    },
+    errors: {},
+    isSubmitting: false,
+};
+
+
+export function registrationReducer(state: IFormState, action: TFormAction): IFormState {
+    switch(action.type)
+    {
+        
+    case 'UPDATE_FIELD':
+      return {
+        ...state,
+        formData: {
+          ...state.formData,
+          [action.payload.field]: action.payload.value,
+        },
+        errors: {
+          ...state.errors,
+          [action.payload.field]: undefined,
+        },
+      };
+
+    case 'SET_ERROR':
+      return {
+        ...state,
+        errors: {
+          ...state.errors,
+          [action.payload.field]: action.payload.message,
+        },
+      };
+
+    case 'NEXT_STEP':
+      return {
+        ...state,
+        currentStep: state.currentStep + 1,
+      };
+
+    case 'PREV_STEP':
+      return {
+        ...state,
+        currentStep: state.currentStep - 1,
+      };
+
+    case 'SUBMIT_START':
+      return {
+        ...state,
+        isSubmitting: true,
+      };
+
+    case 'SUBMIT_SUCCESS':
+      return {
+        ...state,
+        isSubmitting: false,
+      };
+
+    default:
+      return state;
+    }
+}
