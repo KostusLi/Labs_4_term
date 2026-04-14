@@ -1,118 +1,46 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.ComponentModel;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using WpfApp1.ShopApp.ModelView;
 
 namespace WpfApp1.ShopApp.Model
 {
-    public class Product : INotifyPropertyChanged
+    public class Product : BaseViewModel
     {
-        private string _title;
-        private decimal _price;
-        private int _stockQuantity;
-        private double _rating;
-        private double _discount;
-        private string _mainImagePath;
-
         public Guid Id { get; set; }
 
-        public string Title
-        {
-            get => _title;
-            set { _title = value; OnPropertyChanged(); }
-        }
+        private string _title;
+        [Required, MaxLength(100)]
+        public string Title { get => _title; set { _title = value; OnPropertyChanged(); } }
 
-        public string Description { get; set; }
+        private string _description;
+        public string Description { get => _description; set { _description = value; OnPropertyChanged(); } }
 
-        public string Category { get; set; }
+        private decimal _price;
+        public decimal Price { get => _price; set { _price = value; OnPropertyChanged(); OnPropertyChanged(nameof(FinalPrice)); } }
 
-        public string Manufacturer { get; set; }
+        private double _discount;
+        public double Discount { get => _discount; set { _discount = value; OnPropertyChanged(); OnPropertyChanged(nameof(FinalPrice)); } }
 
-        public decimal Price
-        {
-            get => _price;
-            set
-            {
-                _price = value;
-                OnPropertyChanged();
-                OnPropertyChanged(nameof(FinalPrice));
-                OnPropertyChanged(nameof(HasDiscount));
-            }
-        }
+        private int _stockQuantity;
+        public int StockQuantity { get => _stockQuantity; set { _stockQuantity = value; OnPropertyChanged(); } }
+
+        private int _rating;
+        public int Rating { get => _rating; set { _rating = value; OnPropertyChanged(); } }
 
         private byte[] _imageData;
-        public byte[] ImageData
-        {
-            get => _imageData;
-            set { _imageData = value; OnPropertyChanged(); }
-        }
+        public byte[] ImageData { get => _imageData; set { _imageData = value; OnPropertyChanged(); } }
 
-        public double Discount
-        {
-            get => _discount;
-            set
-            {
-                _discount = value;
-                OnPropertyChanged();
-                OnPropertyChanged(nameof(FinalPrice));
-                OnPropertyChanged(nameof(HasDiscount));
-            }
-        }
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
 
-        public int StockQuantity
-        {
-            get => _stockQuantity;
-            set
-            {
-                _stockQuantity = value;
-                OnPropertyChanged();
-                OnPropertyChanged(nameof(IsInStock));
-                OnPropertyChanged(nameof(StatusColor));
-            }
-        }
-
-        public double Rating
-        {
-            get => _rating;
-            set { _rating = value; OnPropertyChanged(); }
-        }
-
-        public string MainImagePath
-        {
-            get => _mainImagePath;
-            set { _mainImagePath = value; OnPropertyChanged(); }
-        }
-
-        public List<string> AdditionalImages { get; set; } = new List<string>();
-
-        public int SoldCount { get; set; }
-
-        [JsonIgnore]
+        [NotMapped]
         public decimal FinalPrice => Price - (Price * (decimal)Discount);
 
-        [JsonIgnore]
+        [NotMapped]
         public bool HasDiscount => Discount > 0;
 
-        [JsonIgnore]
-        public bool IsInStock => StockQuantity > 0;
-
-        [JsonIgnore]
-        public string StatusColor => IsInStock ? "Green" : "Red";
-
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string propName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propName));
-        }
-
-        public Product()
-        {
-            this.Id = Guid.NewGuid();
-        }
+        [NotMapped]
+        public string StatusColor => StockQuantity > 0 ? "Green" : "Red";
     }
 }

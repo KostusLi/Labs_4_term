@@ -1,14 +1,16 @@
-﻿using System.Windows;
+﻿using System.Linq;
+using System.Windows;
 using WpfApp1.ShopApp.Commands;
-using WpfApp1.ShopApp.Database;
+using WpfApp1.ShopApp.DataAccess; // Подключаем наш UnitOfWork
 using WpfApp1.ShopApp.Model;
+using WpfApp1.ShopApp.ModelView;
 using WpfApp1.ShopApp.View;
 
-namespace WpfApp1.ShopApp.ModelView
+namespace WpfApp1.ShopApp.ViewModels
 {
     public class LoginViewModel : BaseViewModel
     {
-        private readonly UserRepository _userRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
         private string _username;
         public string Username { get => _username; set { _username = value; OnPropertyChanged(); } }
@@ -24,7 +26,7 @@ namespace WpfApp1.ShopApp.ModelView
 
         public LoginViewModel()
         {
-            _userRepository = new UserRepository();
+            _unitOfWork = new UnitOfWork();
 
             LoginCommand = new RelayCommand(ExecuteLogin, CanExecute);
             RegisterCommand = new RelayCommand(ExecuteRegister, CanExecute);
@@ -32,41 +34,65 @@ namespace WpfApp1.ShopApp.ModelView
 
         private bool CanExecute(object obj) => !string.IsNullOrWhiteSpace(Username) && !string.IsNullOrWhiteSpace(Password);
 
+
         private async void ExecuteLogin(object obj)
         {
             ErrorMessage = string.Empty;
 
-            User foundUser = await _userRepository.GetUserAsync(Username, Password);
-
-            if (foundUser != null)
+            try
             {
-                if (Application.Current.MainWindow is MainWindow mainWindow)
+                var users = await _unitOfWork.Users.FindAsync(
+                    u => u.Username == Username && u.Password == Password,
+                    u => u.Role
+                );
+
+                User foundUser = users.FirstOrDefault();
+
+                if (foundUser != null)
                 {
-                    mainWindow.MainFrame.Navigate(new ProductsPage(foundUser));
+                    if (Application.Current.MainWindow is MainWindow mainWindow)
+                    {
+                        mainWindow.MainFrame.Navigate(new ProductsPage(foundUser));
+                    }
+                }
+                else
+                {
+                    ErrorMessage = "Неверный логин или пароль!";
                 }
             }
-            else
+            catch (System.Exception ex)
             {
-                ErrorMessage = "Неверный логин или пароль!";
+                ErrorMessage = $"Ошибка БД: {ex.Message}";
             }
         }
+
 
         private async void ExecuteRegister(object obj)
         {
             ErrorMessage = string.Empty;
 
-            bool exists = await _userRepository.UserExistsAsync(Username);
-            if (exists)
+            try
             {
-                ErrorMessage = "Пользователь с таким логином уже существует!";
-                return;
+                var existingUsers = await _unitOfWork.Users.FindAsync(u => u.Username == Username);
+                if (existingUsers.Any())
+                {
+                    ErrorMessage = "Пользователь с таким логином уже существует!";
+                    return;
+                }
+
+                User newUser = new User { Username = Username, Password = Password, RoleId = 2 };
+
+                await _unitOfWork.Users.AddAsync(newUser);
+
+                await _unitOfWork.SaveAsync();
+
+                ErrorMessage = "Регистрация успешна! Теперь вы можете войти.";
+                Password = string.Empty;
             }
-
-            User newUser = new User(Username, Password);
-            await _userRepository.AddUserAsync(newUser);
-
-            ErrorMessage = "Регистрация успешна! Теперь вы можете войти.";
-            Password = string.Empty;
+            catch (System.Exception ex)
+            {
+                ErrorMessage = $"Ошибка БД: {ex.Message}";
+            }
         }
     }
 }

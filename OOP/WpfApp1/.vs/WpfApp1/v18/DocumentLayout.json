@@ -3,12 +3,188 @@
   "WorkspaceRootPath": "D:\\Labs_4_sem\\OOP\\WpfApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\database\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\database\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\modelview\\droneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\modelview\\droneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\modelview\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\modelview\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\converters\\bytearraytoimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\converters\\bytearraytoimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\dataaccess\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\dataaccess\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\dataaccess\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\dataaccess\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\dataaccess\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\dataaccess\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\dataaccess\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\dataaccess\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\database\\shopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\database\\shopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\modelview\\addeditproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\modelview\\addeditproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\model\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\model\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\model\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\model\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\model\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\model\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\modelview\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\modelview\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\modelview\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\modelview\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\databaseadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\databaseadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\modelview\\databaseadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\modelview\\databaseadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\addeditproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\addeditproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\ratingcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\ratingcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\addeditproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\addeditproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\databaseadminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\databaseadminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\productcardcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\productcardcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\modelview\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\modelview\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\modelview\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\modelview\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Migrations\\20260401122518_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\Migrations\\20260401122518_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Migrations\\20260401122342_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\Migrations\\20260401122342_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Migrations\\20260401120455_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\Migrations\\20260401120455_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\numericupdown.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,84 +199,8 @@
       "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\productcardcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\ratingcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\ratingcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\ratingcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\ratingcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\productcardcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\productcardcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\addeditproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\addeditproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\databaseadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\databaseadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\databaseadminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\databaseadminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\view\\addeditproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\view\\addeditproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\undoredo\\undoredomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,58 +213,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\undoredo\\delegateaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\undoredo\\delegateaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\modelview\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\modelview\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\modelview\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\modelview\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\modelview\\databaseadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\modelview\\databaseadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\modelview\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\modelview\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\modelview\\addeditproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\modelview\\addeditproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\model\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\model\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\model\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\model\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\database\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\database\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\database\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\database\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\shopapp\\converters\\bytearraytoimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\shopapp\\converters\\bytearraytoimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\resources\\themes\\theme.light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -183,8 +231,8 @@
       "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\resources\\lang\\lang.en.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|d:\\labs_4_sem\\oop\\wpfapp1\\wpfapp1\\migrations\\20260401123501_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD2A170-9EB6-4A72-B63F-8B592ED8377B}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\migrations\\20260401123501_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -194,7 +242,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 816,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -206,83 +254,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NumericUpDown.xaml.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\NumericUpDown.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\NumericUpDown.xaml.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\NumericUpDown.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\NumericUpDown.xaml.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAIwH0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T11:14:58.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NumericUpDown.xaml",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\NumericUpDown.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\NumericUpDown.xaml",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\NumericUpDown.xaml",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\NumericUpDown.xaml",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-15T11:11:58.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T10:34:01.253Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProductsPage.xaml",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProductsPage.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\ProductsPage.xaml",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProductsPage.xaml",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\ProductsPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-15T10:34:01.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductCardControl.xaml.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProductCardControl.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\ProductCardControl.xaml.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProductCardControl.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\ProductCardControl.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\ModelView\\MainViewModel.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\MainViewModel.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\ModelView\\MainViewModel.cs",
-              "ViewState": "AgIAANcAAAAAAAAAAAAAAPcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Database\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Database\\ProductRepository.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Database\\ProductRepository.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\Database\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T13:32:22.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Styles.xaml",
               "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Styles.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\Styles.xaml",
@@ -294,32 +277,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "GameViewModel.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\GameViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\ModelView\\GameViewModel.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\GameViewModel.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\ModelView\\GameViewModel.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.247Z",
+              "WhenOpened": "2026-04-01T14:33:30.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\MainWindow.xaml",
-              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
+              "DocumentIndex": 2,
+              "Title": "DroneViewModel.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\DroneViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\ModelView\\DroneViewModel.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\DroneViewModel.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\ModelView\\DroneViewModel.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA4wC0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T14:32:50.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GamePage.xaml",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\GamePage.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\GamePage.xaml",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\GamePage.xaml",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\GamePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-15T10:34:01.253Z",
+              "WhenOpened": "2026-04-01T14:35:08.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "ProductsPage.xaml",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProductsPage.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\ProductsPage.xaml",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProductsPage.xaml",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\ProductsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T10:34:01.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsPage.xaml.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProductsPage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\ProductsPage.xaml.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProductsPage.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\ProductsPage.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIAxwBwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "WpfApp1\\AssemblyInfo.cs",
@@ -327,25 +348,307 @@
               "RelativeToolTip": "WpfApp1\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T10:34:01.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Commands\\RelayCommand.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ByteArrayToImageConverter.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Converters\\ByteArrayToImageConverter.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Converters\\ByteArrayToImageConverter.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Converters\\ByteArrayToImageConverter.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\Converters\\ByteArrayToImageConverter.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA4wCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T11:23:25.928Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\App.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\App.xaml.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\App.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\App.xaml.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAA1wBUAAAAgAAAAAAAAAA==",
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\DataAccess\\IRepository.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\DataAccess\\IRepository.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\DataAccess\\IRepository.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\DataAccess\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T19:03:43.892Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\DataAccess\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\DataAccess\\IUnitOfWork.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\DataAccess\\IUnitOfWork.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\DataAccess\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T19:30:06.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\DataAccess\\Repository.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\DataAccess\\Repository.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\DataAccess\\Repository.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\DataAccess\\Repository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowBIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T19:07:18.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\DataAccess\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\DataAccess\\UnitOfWork.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\DataAccess\\UnitOfWork.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\DataAccess\\UnitOfWork.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T19:30:27.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ShopDbContext.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Database\\ShopDbContext.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Database\\ShopDbContext.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Database\\ShopDbContext.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\Database\\ShopDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T18:58:11.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddEditProductViewModel.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\AddEditProductViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\ModelView\\AddEditProductViewModel.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\AddEditProductViewModel.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\ModelView\\AddEditProductViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\CartItem.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Model\\CartItem.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\CartItem.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\Model\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\Category.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Model\\Category.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\Category.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\Model\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T18:56:43.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\FileService.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Model\\FileService.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\FileService.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\Model\\FileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Model\\Product.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\Product.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\Model\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\Role.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Model\\Role.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\Role.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\Model\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T18:55:30.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\User.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Model\\User.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\User.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\ModelView\\LoginViewModel.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\LoginViewModel.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\ModelView\\LoginViewModel.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\ModelView\\MainViewModel.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\MainViewModel.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\ModelView\\MainViewModel.cs",
+              "ViewState": "AgIAACsBAAAAAAAAAAAowBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DatabaseAdminPage.xaml",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\DatabaseAdminPage.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\DatabaseAdminPage.xaml",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\DatabaseAdminPage.xaml",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\DatabaseAdminPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-16T08:10:13.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DatabaseAdminViewModel.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\DatabaseAdminViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\ModelView\\DatabaseAdminViewModel.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\DatabaseAdminViewModel.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\ModelView\\DatabaseAdminViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T08:08:48.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\LoginPage.xaml",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\LoginPage.xaml",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T10:34:01.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddEditProductWindow.xaml",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\AddEditProductWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\AddEditProductWindow.xaml",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\AddEditProductWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\AddEditProductWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T10:34:01.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RatingControl.xaml",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\RatingControl.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\RatingControl.xaml",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\RatingControl.xaml",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\RatingControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T11:22:45.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AddEditProductWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\AddEditProductWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\AddEditProductWindow.xaml.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\AddEditProductWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\AddEditProductWindow.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DatabaseAdminPage.xaml.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\DatabaseAdminPage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\DatabaseAdminPage.xaml.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\DatabaseAdminPage.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\DatabaseAdminPage.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T08:11:16.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GamePage.xaml.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\GamePage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\GamePage.xaml.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\GamePage.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\GamePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA2wA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T14:35:29.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\App.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\App.xaml",
@@ -357,248 +660,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "App.config",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\App.config",
-              "RelativeDocumentMoniker": "WpfApp1\\App.config",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\App.config",
-              "RelativeToolTip": "WpfApp1\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-03-15T13:18:15.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RatingControl.xaml.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\RatingControl.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\RatingControl.xaml.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\RatingControl.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\RatingControl.xaml.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T11:23:13.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RatingControl.xaml",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\RatingControl.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\RatingControl.xaml",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\RatingControl.xaml",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\RatingControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-15T11:22:45.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProfilePage.xaml.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProfilePage.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\ProfilePage.xaml.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProfilePage.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\ProfilePage.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 34,
               "Title": "ProfilePage.xaml",
               "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProfilePage.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\ProfilePage.xaml",
               "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProfilePage.xaml",
               "RelativeToolTip": "WpfApp1\\ShopApp\\View\\ProfilePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-15T10:34:01.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T10:34:01.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ProductsPage.xaml.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProductsPage.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\ProductsPage.xaml.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProductsPage.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\ProductsPage.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAD4vxsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 35,
               "Title": "ProductCardControl.xaml",
               "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProductCardControl.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\ProductCardControl.xaml",
               "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProductCardControl.xaml",
               "RelativeToolTip": "WpfApp1\\ShopApp\\View\\ProductCardControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-15T10:34:01.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T10:34:01.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\LoginPage.xaml.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\LoginPage.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\LoginPage.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\LoginPage.xaml",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\LoginPage.xaml",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\LoginPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-15T10:34:01.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AddEditProductWindow.xaml",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\AddEditProductWindow.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\AddEditProductWindow.xaml",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\AddEditProductWindow.xaml",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\AddEditProductWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-15T10:34:01.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DatabaseAdminPage.xaml",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\DatabaseAdminPage.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\DatabaseAdminPage.xaml",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\DatabaseAdminPage.xaml",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\DatabaseAdminPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-16T08:10:13.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "DatabaseAdminPage.xaml.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\DatabaseAdminPage.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\DatabaseAdminPage.xaml.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\DatabaseAdminPage.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\DatabaseAdminPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T08:11:16.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AddEditProductWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\AddEditProductWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\AddEditProductWindow.xaml.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\AddEditProductWindow.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\AddEditProductWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UndoRedoManager.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\UndoRedo\\UndoRedoManager.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\UndoRedo\\UndoRedoManager.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\UndoRedo\\UndoRedoManager.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\UndoRedo\\UndoRedoManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IUndoableAction.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\UndoRedo\\IUndoableAction.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\UndoRedo\\IUndoableAction.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\UndoRedo\\IUndoableAction.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\UndoRedo\\IUndoableAction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "DelegateAction.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\UndoRedo\\DelegateAction.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\UndoRedo\\DelegateAction.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\UndoRedo\\DelegateAction.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\UndoRedo\\DelegateAction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "ProfileViewModel.cs",
               "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\ProfileViewModel.cs",
               "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\ModelView\\ProfileViewModel.cs",
               "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\ProfileViewModel.cs",
               "RelativeToolTip": "WpfApp1\\ShopApp\\ModelView\\ProfileViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T10:34:01.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\ModelView\\LoginViewModel.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\LoginViewModel.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\ModelView\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "DatabaseAdminViewModel.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\DatabaseAdminViewModel.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\ModelView\\DatabaseAdminViewModel.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\DatabaseAdminViewModel.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\ModelView\\DatabaseAdminViewModel.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T08:08:48.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "BaseViewModel.cs",
               "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\BaseViewModel.cs",
               "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\ModelView\\BaseViewModel.cs",
@@ -606,171 +702,79 @@
               "RelativeToolTip": "WpfApp1\\ShopApp\\ModelView\\BaseViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T10:34:01.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "AddEditProductViewModel.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\AddEditProductViewModel.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\ModelView\\AddEditProductViewModel.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\ModelView\\AddEditProductViewModel.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\ModelView\\AddEditProductViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 57,
+              "Title": "20260401123501_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Migrations\\20260401123501_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Migrations\\20260401123501_InitialCreate.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Migrations\\20260401123501_InitialCreate.cs",
+              "RelativeToolTip": "WpfApp1\\Migrations\\20260401123501_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\User.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Model\\User.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\User.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\Model\\User.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAuwCIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\Product.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Model\\Product.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\Product.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\Model\\Product.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "FileService.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\FileService.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Model\\FileService.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\FileService.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\Model\\FileService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAmwBEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\CartItem.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Model\\CartItem.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Model\\CartItem.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\Model\\CartItem.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwBcAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Database\\UserRepository.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Database\\UserRepository.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Database\\UserRepository.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\Database\\UserRepository.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAYwCEAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T13:56:51.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T12:35:01.267Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 38,
-              "Title": "DatabaseInitializer.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Database\\DatabaseInitializer.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Database\\DatabaseInitializer.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Database\\DatabaseInitializer.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\Database\\DatabaseInitializer.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAACwAAAAdAAAAAAAAAA==",
+              "Title": "20260401122518_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Migrations\\20260401122518_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Migrations\\20260401122518_InitialCreate.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Migrations\\20260401122518_InitialCreate.cs",
+              "RelativeToolTip": "WpfApp1\\Migrations\\20260401122518_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T13:22:24.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T12:25:18.735Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 39,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Commands\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Commands\\RelayCommand.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Commands\\RelayCommand.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\Commands\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Title": "20260401122342_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Migrations\\20260401122342_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Migrations\\20260401122342_InitialCreate.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Migrations\\20260401122342_InitialCreate.cs",
+              "RelativeToolTip": "WpfApp1\\Migrations\\20260401122342_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:34:01.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T12:23:42.882Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 40,
-              "Title": "ByteArrayToImageConverter.cs",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Converters\\ByteArrayToImageConverter.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\Converters\\ByteArrayToImageConverter.cs",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\Converters\\ByteArrayToImageConverter.cs",
-              "RelativeToolTip": "WpfApp1\\ShopApp\\Converters\\ByteArrayToImageConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Title": "20260401120455_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Migrations\\20260401120455_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Migrations\\20260401120455_InitialCreate.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Migrations\\20260401120455_InitialCreate.cs",
+              "RelativeToolTip": "WpfApp1\\Migrations\\20260401120455_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T11:23:25.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Theme.Light.xaml",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Resources\\Themes\\Theme.Light.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\Resources\\Themes\\Theme.Light.xaml",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Resources\\Themes\\Theme.Light.xaml",
-              "RelativeToolTip": "WpfApp1\\Resources\\Themes\\Theme.Light.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-15T10:34:01.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T12:04:56.073Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 42,
-              "Title": "Theme.Dark.xaml",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Resources\\Themes\\Theme.Dark.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\Resources\\Themes\\Theme.Dark.xaml",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Resources\\Themes\\Theme.Dark.xaml",
-              "RelativeToolTip": "WpfApp1\\Resources\\Themes\\Theme.Dark.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-15T10:34:01.021Z"
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\LoginPage.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Lang.ru.xaml",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Resources\\Lang\\Lang.ru.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\Resources\\Lang\\Lang.ru.xaml",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Resources\\Lang\\Lang.ru.xaml",
-              "RelativeToolTip": "WpfApp1\\Resources\\Lang\\Lang.ru.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-15T10:34:01.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Lang.en.xaml",
-              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Resources\\Lang\\Lang.en.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\Resources\\Lang\\Lang.en.xaml",
-              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Resources\\Lang\\Lang.en.xaml",
-              "RelativeToolTip": "WpfApp1\\Resources\\Lang\\Lang.en.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-15T10:34:01.268Z"
+              "DocumentIndex": 41,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\ProfilePage.xaml.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIAxwBwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.134Z"
             },
             {
               "$type": "Document",
@@ -782,8 +786,160 @@
               "RelativeToolTip": "WpfApp1\\WpfApp1.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-15T13:17:40.592Z",
+              "WhenOpened": "2026-03-15T13:17:40.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\App.xaml.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\App.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\App.config",
+              "RelativeDocumentMoniker": "WpfApp1\\App.config",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\App.config",
+              "RelativeToolTip": "WpfApp1\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-15T13:18:15.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "NumericUpDown.xaml.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\NumericUpDown.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\NumericUpDown.xaml.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\NumericUpDown.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\NumericUpDown.xaml.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T11:14:58.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ProductCardControl.xaml.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProductCardControl.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\ProductCardControl.xaml.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\ProductCardControl.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\ProductCardControl.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "NumericUpDown.xaml",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\NumericUpDown.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\NumericUpDown.xaml",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\NumericUpDown.xaml",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\NumericUpDown.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T11:11:58.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "RatingControl.xaml.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\RatingControl.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\View\\RatingControl.xaml.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\View\\RatingControl.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\View\\RatingControl.xaml.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAEBUwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T11:23:13.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UndoRedoManager.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\UndoRedo\\UndoRedoManager.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\UndoRedo\\UndoRedoManager.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\UndoRedo\\UndoRedoManager.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\UndoRedo\\UndoRedoManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IUndoableAction.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\UndoRedo\\IUndoableAction.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\UndoRedo\\IUndoableAction.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\UndoRedo\\IUndoableAction.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\UndoRedo\\IUndoableAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "DelegateAction.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\UndoRedo\\DelegateAction.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ShopApp\\UndoRedo\\DelegateAction.cs",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\ShopApp\\UndoRedo\\DelegateAction.cs",
+              "RelativeToolTip": "WpfApp1\\ShopApp\\UndoRedo\\DelegateAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T10:34:01.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Theme.Light.xaml",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Resources\\Themes\\Theme.Light.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Resources\\Themes\\Theme.Light.xaml",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Resources\\Themes\\Theme.Light.xaml",
+              "RelativeToolTip": "WpfApp1\\Resources\\Themes\\Theme.Light.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T10:34:01.128Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Theme.Dark.xaml",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Resources\\Themes\\Theme.Dark.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Resources\\Themes\\Theme.Dark.xaml",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Resources\\Themes\\Theme.Dark.xaml",
+              "RelativeToolTip": "WpfApp1\\Resources\\Themes\\Theme.Dark.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T10:34:01.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Lang.ru.xaml",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Resources\\Lang\\Lang.ru.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Resources\\Lang\\Lang.ru.xaml",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Resources\\Lang\\Lang.ru.xaml",
+              "RelativeToolTip": "WpfApp1\\Resources\\Lang\\Lang.ru.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T10:34:01.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Lang.en.xaml",
+              "DocumentMoniker": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Resources\\Lang\\Lang.en.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Resources\\Lang\\Lang.en.xaml",
+              "ToolTip": "D:\\Labs_4_sem\\OOP\\WpfApp1\\WpfApp1\\Resources\\Lang\\Lang.en.xaml",
+              "RelativeToolTip": "WpfApp1\\Resources\\Lang\\Lang.en.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T10:34:01.268Z"
             }
           ]
         },

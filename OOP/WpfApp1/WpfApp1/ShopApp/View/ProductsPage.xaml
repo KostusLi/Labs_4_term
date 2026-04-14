@@ -117,14 +117,18 @@
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,20,10">
 
                     <Button Background="{DynamicResource ControlBorder}" BorderThickness="2" BorderBrush="#444" Foreground="{DynamicResource PrimaryText}" 
-                    Content="{DynamicResource BtnProfile}" Command="{Binding OpenProfileCommand}" 
-                    Margin="0,0,10,0" Padding="10,5" Cursor="Hand"/>
+                            Content="{DynamicResource BtnProfile}" Command="{Binding OpenProfileCommand}" 
+                            Margin="0,0,10,0" Padding="10,5" Cursor="Hand" VerticalAlignment="Center"/>
 
-                    <!-- НОВАЯ КНОПКА ДЛЯ АДМИНА -->
                     <Button Background="#FF5722" Foreground="White" BorderThickness="0" 
-                    Content="Управление БД" Command="{Binding OpenDbAdminCommand}" 
-                    Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVis}}"
-                    Padding="10,5" Cursor="Hand"/>
+                            Content="Управление БД" Command="{Binding OpenDbAdminCommand}" 
+                            Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVis}}"
+                            Margin="0,0,10,0" Padding="10,5" Cursor="Hand" VerticalAlignment="Center"/>
+
+                    <Button Background="#9C27B0" Foreground="White" BorderThickness="0" 
+                            Content="🚁 Дроны (Игра)" Command="{Binding OpenGameCommand}" 
+                            Padding="10,5" Cursor="Hand" VerticalAlignment="Center"/>
+
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,0,10"

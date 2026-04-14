@@ -1,19 +1,17 @@
-﻿using System;
+﻿using Microsoft.Win32;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using System.Windows;
 using WpfApp1.ShopApp.Commands;
 using WpfApp1.ShopApp.Model;
-using Microsoft.Win32;
-using System.IO;
+using WpfApp1.ShopApp.ModelView;
 
 namespace WpfApp1.ShopApp.ModelView
 {
-    public class AddEditProductViewModel: BaseViewModel
+    public class AddEditProductViewModel : BaseViewModel
     {
         public RelayCommand SelectImageCommand { get; }
+
         private Product _currentProduct;
         public Product CurrentProduct
         {
@@ -21,19 +19,24 @@ namespace WpfApp1.ShopApp.ModelView
             set { _currentProduct = value; OnPropertyChanged(); }
         }
 
-        public string WindowTitle { get; set; }
+        public List<Category> AvailableCategories { get; set; }
 
+        public string WindowTitle { get; set; }
         public bool DialogResult { get; private set; } = false;
 
         public RelayCommand SaveCommand { get; }
         public RelayCommand CancelCommand { get; }
 
-        public AddEditProductViewModel(Product product = null)
+        public AddEditProductViewModel(Product product, List<Category> categories)
         {
+            AvailableCategories = categories;
+
             if (product == null)
             {
                 WindowTitle = "Добавление нового товара";
                 CurrentProduct = new Product { Price = 0, Discount = 0, StockQuantity = 1 };
+
+                if (categories.Count > 0) CurrentProduct.CategoryId = categories[0].Id;
             }
             else
             {
@@ -43,11 +46,12 @@ namespace WpfApp1.ShopApp.ModelView
                     Id = product.Id,
                     Title = product.Title,
                     Description = product.Description,
-                    Category = product.Category,
+                    CategoryId = product.CategoryId,
                     Price = product.Price,
                     Discount = product.Discount,
                     StockQuantity = product.StockQuantity,
-                    MainImagePath = product.MainImagePath
+                    Rating = product.Rating,
+                    ImageData = product.ImageData
                 };
             }
 
@@ -67,14 +71,15 @@ namespace WpfApp1.ShopApp.ModelView
             if (openFileDialog.ShowDialog() == true)
             {
                 byte[] imageBytes = File.ReadAllBytes(openFileDialog.FileName);
-
                 CurrentProduct.ImageData = imageBytes;
             }
         }
 
         private bool CanExecuteSave(object obj)
         {
-            return !string.IsNullOrWhiteSpace(CurrentProduct.Title) && CurrentProduct.Price >= 0;
+            return !string.IsNullOrWhiteSpace(CurrentProduct.Title)
+                   && CurrentProduct.Price >= 0
+                   && CurrentProduct.CategoryId > 0;
         }
 
         private void ExecuteSave(object parameter)
@@ -94,6 +99,5 @@ namespace WpfApp1.ShopApp.ModelView
                 window.DialogResult = false;
             }
         }
-
     }
 }

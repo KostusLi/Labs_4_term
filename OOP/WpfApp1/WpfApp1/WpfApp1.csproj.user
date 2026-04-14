@@ -8,6 +8,9 @@
     <Compile Update="ShopApp\View\DatabaseAdminPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ShopApp\View\GamePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ShopApp\View\LoginPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

@@ -20,8 +20,11 @@
                      Margin="0,5,0,15" Padding="5"/>
 
             <TextBlock Text="{DynamicResource Category}" FontWeight="Bold"/>
-            <TextBox Text="{Binding CurrentProduct.Category, UpdateSourceTrigger=PropertyChanged}" 
-                     Margin="0,5,0,15" Padding="5"/>
+            <ComboBox ItemsSource="{Binding AvailableCategories}" 
+          DisplayMemberPath="Name" 
+          SelectedValuePath="Id" 
+          SelectedValue="{Binding CurrentProduct.CategoryId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+          Margin="0,5,0,15" Padding="5" Background="{DynamicResource PanelBackground}" Foreground="{DynamicResource PrimaryText}"/>
 
             <TextBlock Text="{DynamicResource LabelDescription}" FontWeight="Bold"/>
             <TextBox Text="{Binding CurrentProduct.Description, UpdateSourceTrigger=PropertyChanged}" 

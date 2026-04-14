@@ -42,15 +42,15 @@
     "PhotoPath": "/Photo/ForUpdate.jpg"
   },
   {
-    "Id": 1,
-    "Firstname": "Noam",
-    "Surname": "Chomsky",
-    "PhotoPath": "/Photo/Chomsky.jpg"
-  },
-  {
     "Id": 10,
     "Firstname": "NoJPG",
     "Surname": "NoJPG",
     "PhotoPath": "/Photo/NoJPG.jpg"
+  },
+  {
+    "Id": 1,
+    "Firstname": "Noam",
+    "Surname": "Chomsky",
+    "PhotoPath": "/Photo/Chomsky.jpg"
   }
 ]

@@ -1,16 +1,17 @@
 ﻿using System.Windows;
 using WpfApp1.ShopApp.Commands;
-using WpfApp1.ShopApp.Database;
+using WpfApp1.ShopApp.DataAccess;
 using WpfApp1.ShopApp.Model;
+using WpfApp1.ShopApp.ModelView;
 using WpfApp1.ShopApp.View;
 
-namespace WpfApp1.ShopApp.ModelView
+namespace WpfApp1.ShopApp.ViewModels
 {
     public class ProfileViewModel : BaseViewModel
     {
         private User _currentUser;
 
-        private readonly UserRepository _userRepository = new UserRepository();
+        private readonly IUnitOfWork _unitOfWork;
 
         private string _editUsername;
         public string EditUsername
@@ -35,12 +36,13 @@ namespace WpfApp1.ShopApp.ModelView
         {
             _currentUser = user;
 
+            _unitOfWork = new UnitOfWork();
+
             EditUsername = user.Username;
             EditPassword = user.Password;
 
             SaveProfileCommand = new RelayCommand(ExecuteSave, CanExecuteSave);
             GoBackCommand = new RelayCommand(ExecuteGoBack);
-
             ChangeThemeCommand = new RelayCommand(obj => App.ChangeTheme(obj.ToString()));
             ChangeLangCommand = new RelayCommand(obj => App.ChangeLanguage(obj.ToString()));
         }
@@ -55,8 +57,10 @@ namespace WpfApp1.ShopApp.ModelView
             _currentUser.Username = EditUsername;
             _currentUser.Password = EditPassword;
 
-            await _userRepository.UpdateUserAsync(_currentUser);
+            _unitOfWork.Users.Update(_currentUser);
+            await _unitOfWork.SaveAsync();
 
+            MessageBox.Show("Данные профиля успешно обновлены!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
         private void ExecuteGoBack(object obj)

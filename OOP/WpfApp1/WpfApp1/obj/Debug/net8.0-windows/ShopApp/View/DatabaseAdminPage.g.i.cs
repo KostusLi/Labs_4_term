@@ -52,7 +52,7 @@ namespace WpfApp1.ShopApp.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfApp1;V1.0.0.0;component/shopapp/view/databaseadminpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfApp1;component/shopapp/view/databaseadminpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\ShopApp\View\DatabaseAdminPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

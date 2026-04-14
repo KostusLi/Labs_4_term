@@ -11,18 +11,10 @@ namespace WpfApp1
     public partial class App : Application
     {
 
-        protected override void OnStartup(StartupEventArgs e)
-        {
-            base.OnStartup(e);
-
-            bool isDatabaseReady = DatabaseInitializer.Initialize();
-
-            if (!isDatabaseReady)
-            {
-                this.Shutdown();
-                return;
-            }
-        }
+        //protected override void OnStartup(StartupEventArgs e)
+        //{
+        //    base.OnStartup(e);
+        //}
 
         public static void ChangeLanguage(string languageCode)
         {

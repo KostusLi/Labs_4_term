@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\Labs_4_sem\OOP\WpfApp1\WpfApp1\App.xaml
-14-992390125
+15166891377
 
-30167039420
-199-1361241681
-MainWindow.xaml;Resources\Lang\Lang.en.xaml;Resources\Lang\Lang.ru.xaml;Resources\Themes\Theme.Dark.xaml;Resources\Themes\Theme.Light.xaml;ShopApp\View\AddEditProductWindow.xaml;ShopApp\View\DatabaseAdminPage.xaml;ShopApp\View\LoginPage.xaml;ShopApp\View\NumericUpDown.xaml;ShopApp\View\ProductCardControl.xaml;ShopApp\View\ProductsPage.xaml;ShopApp\View\ProfilePage.xaml;ShopApp\View\RatingControl.xaml;Styles.xaml;
+4046886515
+228571595210
+MainWindow.xaml;Resources\Lang\Lang.en.xaml;Resources\Lang\Lang.ru.xaml;Resources\Themes\Theme.Dark.xaml;Resources\Themes\Theme.Light.xaml;ShopApp\View\AddEditProductWindow.xaml;ShopApp\View\DatabaseAdminPage.xaml;ShopApp\View\GamePage.xaml;ShopApp\View\LoginPage.xaml;ShopApp\View\NumericUpDown.xaml;ShopApp\View\ProductCardControl.xaml;ShopApp\View\ProductsPage.xaml;ShopApp\View\ProfilePage.xaml;ShopApp\View\RatingControl.xaml;Styles.xaml;
 
 False
 

@@ -4,19 +4,19 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 using WpfApp1.ShopApp.Commands;
-using WpfApp1.ShopApp.Database;
+using WpfApp1.ShopApp.DataAccess;
 using WpfApp1.ShopApp.Model;
 using WpfApp1.ShopApp.ModelView;
 using WpfApp1.ShopApp.UndoRedo;
 using WpfApp1.ShopApp.View;
 
-namespace WpfApp1.ShopApp.ModelView
+namespace WpfApp1.ShopApp.ViewModels
 {
     public class MainViewModel : BaseViewModel
     {
         private User _currentUser;
 
-        private readonly ProductRepository _repository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly UndoRedoManager _historyManager;
 
         private ObservableCollection<Product> _allProducts;
@@ -25,16 +25,17 @@ namespace WpfApp1.ShopApp.ModelView
         public RelayCommand SwitchToRuCommand { get; }
         public RelayCommand SwitchToEnCommand { get; }
         public RelayCommand OpenProfileCommand { get; }
+        public RelayCommand OpenDbAdminCommand { get; }
+        public RelayCommand OpenGameCommand { get; }
         public RelayCommand UndoCommand { get; }
         public RelayCommand RedoCommand { get; }
         public RelayCommand AddCommand { get; }
         public RelayCommand EditCommand { get; }
         public RelayCommand DeleteCommand { get; }
         public RelayCommand LogoutCommand { get; }
-        public RelayCommand OpenDbAdminCommand { get; }
 
         public string CurrentUsername => _currentUser?.Username;
-        public bool IsAdmin => _currentUser?.Role == Role.Admin;
+        public bool IsAdmin => _currentUser?.Role?.Name == "Admin";
 
         public ObservableCollection<Product> DisplayProducts
         {
@@ -52,48 +53,21 @@ namespace WpfApp1.ShopApp.ModelView
         public ObservableCollection<string> Categories { get; set; }
 
         private string _searchText = "";
-        public string SearchText
-        {
-            get => _searchText;
-            set
-            {
-                _searchText = value;
-                OnPropertyChanged();
-                FilterProductsAsync();
-            }
-        }
+        public string SearchText { get => _searchText; set { _searchText = value; OnPropertyChanged(); FilterProductsAsync(); } }
 
         private string _selectedCategory;
-        public string SelectedCategory
-        {
-            get => _selectedCategory;
-            set
-            {
-                _selectedCategory = value;
-                OnPropertyChanged();
-                FilterProductsAsync();
-            }
-        }
+        public string SelectedCategory { get => _selectedCategory; set { _selectedCategory = value; OnPropertyChanged(); FilterProductsAsync(); } }
 
         private string _minPriceText;
-        public string MinPriceText
-        {
-            get => _minPriceText;
-            set { _minPriceText = value; OnPropertyChanged(); FilterProductsAsync(); }
-        }
+        public string MinPriceText { get => _minPriceText; set { _minPriceText = value; OnPropertyChanged(); FilterProductsAsync(); } }
 
         private string _maxPriceText;
-        public string MaxPriceText
-        {
-            get => _maxPriceText;
-            set { _maxPriceText = value; OnPropertyChanged(); FilterProductsAsync(); }
-        }
-
+        public string MaxPriceText { get => _maxPriceText; set { _maxPriceText = value; OnPropertyChanged(); FilterProductsAsync(); } }
 
         public MainViewModel(User user)
         {
             _currentUser = user;
-            _repository = new ProductRepository();
+            _unitOfWork = new UnitOfWork();
             _historyManager = new UndoRedoManager();
 
             _allProducts = new ObservableCollection<Product>();
@@ -102,81 +76,71 @@ namespace WpfApp1.ShopApp.ModelView
 
             SwitchToRuCommand = new RelayCommand(obj => App.ChangeLanguage("ru"));
             SwitchToEnCommand = new RelayCommand(obj => App.ChangeLanguage("en"));
-            LogoutCommand = new RelayCommand(ExecuteLogout);
+            LogoutCommand = new RelayCommand(obj => { if (Application.Current.MainWindow is MainWindow mw) mw.MainFrame.Navigate(new LoginPage()); });
+            OpenProfileCommand = new RelayCommand(obj => { if (Application.Current.MainWindow is MainWindow mw) mw.MainFrame.Navigate(new ProfilePage(_currentUser)); });
 
-            OpenProfileCommand = new RelayCommand(obj =>
-            {
-                if (Application.Current.MainWindow is MainWindow mainWindow)
-                    mainWindow.MainFrame.Navigate(new ProfilePage(_currentUser));
-            });
-
-            UndoCommand = new RelayCommand(
-                obj => { _historyManager.Undo(); },
-                obj => _historyManager.CanUndo
-            );
-
-            RedoCommand = new RelayCommand(
-                obj => { _historyManager.Redo(); },
-                obj => _historyManager.CanRedo
-            );
-
-            OpenDbAdminCommand = new RelayCommand(obj =>
-            {
-                if (Application.Current.MainWindow is MainWindow mainWindow)
-                    mainWindow.MainFrame.Navigate(new DatabaseAdminPage(_currentUser));
-            });
+            UndoCommand = new RelayCommand(obj => { _historyManager.Undo(); }, obj => _historyManager.CanUndo);
+            RedoCommand = new RelayCommand(obj => { _historyManager.Redo(); }, obj => _historyManager.CanRedo);
 
             AddCommand = new RelayCommand(ExecuteAdd);
             EditCommand = new RelayCommand(ExecuteEdit, obj => SelectedProduct != null);
             DeleteCommand = new RelayCommand(ExecuteDelete, obj => SelectedProduct != null);
 
-            LoadDataFromDbAsync();
-        }
-
-        private void ExecuteLogout(object obj)
-        {
-            if (Application.Current.MainWindow is MainWindow mainWindow)
+            OpenDbAdminCommand = new RelayCommand(obj =>
             {
-                mainWindow.MainFrame.Navigate(new LoginPage());
-            }
+                if (Application.Current.MainWindow is MainWindow mw)
+                    mw.MainFrame.Navigate(new DatabaseAdminPage(_currentUser));
+            });
+
+            OpenGameCommand = new RelayCommand(obj =>
+            {
+                if (Application.Current.MainWindow is MainWindow mw)
+                    mw.MainFrame.Navigate(new GamePage(_currentUser));
+            });
+            LoadDataFromDbAsync();
         }
 
 
         private async void LoadDataFromDbAsync()
         {
-            var productsFromDb = await _repository.GetAllProductsAsync();
-
-            _allProducts.Clear();
-            foreach (var p in productsFromDb)
+            try
             {
-                p.PropertyChanged += Product_PropertyChanged;
-                _allProducts.Add(p);    
-            }
+                var productsFromDb = await _unitOfWork.Products.FindAsync(p => true, p => p.Category);
 
-            UpdateCategories();
-            FilterProductsAsync();
+                _allProducts.Clear();
+                foreach (var p in productsFromDb)
+                {
+                    p.PropertyChanged += Product_PropertyChanged;
+                    _allProducts.Add(p);
+                }
+
+                UpdateCategories();
+                FilterProductsAsync();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка загрузки данных: {ex.Message}");
+            }
         }
 
-        private async void FilterProductsAsync()
+
+        private void FilterProductsAsync()
         {
             var filtered = _allProducts.AsEnumerable();
 
             if (!string.IsNullOrWhiteSpace(SearchText))
-            {
-                var searchedFromDb = await _repository.SearchProductsAsync(SearchText);
-                filtered = searchedFromDb;
-            }
+                filtered = filtered.Where(p => p.Title.ToLower().Contains(SearchText.ToLower()));
 
             if (!string.IsNullOrEmpty(SelectedCategory) && SelectedCategory != "Все категории")
-            {
-                filtered = filtered.Where(p => p.Category == SelectedCategory);
-            }
+                filtered = filtered.Where(p => p.Category?.Name == SelectedCategory);
 
             if (decimal.TryParse(MinPriceText, out decimal minPrice))
                 filtered = filtered.Where(p => p.Price >= minPrice);
 
             if (decimal.TryParse(MaxPriceText, out decimal maxPrice))
                 filtered = filtered.Where(p => p.Price <= maxPrice);
+
+            filtered = filtered.OrderBy(p => p.Price);
 
             DisplayProducts = new ObservableCollection<Product>(filtered);
         }
@@ -187,24 +151,20 @@ namespace WpfApp1.ShopApp.ModelView
             Categories.Clear();
             Categories.Add("Все категории");
 
-            var uniqueCategories = _allProducts.Select(p => p.Category).Distinct().OrderBy(c => c);
+            var uniqueCategories = _allProducts.Where(p => p.Category != null).Select(p => p.Category.Name).Distinct().OrderBy(c => c);
             foreach (var c in uniqueCategories)
-            {
-                if (!string.IsNullOrEmpty(c)) Categories.Add(c);
-            }
+                Categories.Add(c);
 
-            if (Categories.Contains(oldCategory))
-                _selectedCategory = oldCategory;
-            else
-                _selectedCategory = "Все категории";
-
+            _selectedCategory = Categories.Contains(oldCategory) ? oldCategory : "Все категории";
             OnPropertyChanged(nameof(SelectedCategory));
         }
 
 
-        private void ExecuteAdd(object obj)
+        private async void ExecuteAdd(object obj)
         {
-            var addVM = new AddEditProductViewModel(null);
+            var categoriesDb = (await _unitOfWork.Categories.GetAllAsync()).ToList();
+
+            var addVM = new AddEditProductViewModel(null, categoriesDb);
             var window = new AddEditProductWindow { DataContext = addVM };
             window.ShowDialog();
 
@@ -217,30 +177,26 @@ namespace WpfApp1.ShopApp.ModelView
                     {
                         try
                         {
-                            await _repository.AddProductAsync(newProduct);
+                            await _unitOfWork.Products.AddAsync(newProduct);
+                            await _unitOfWork.SaveAsync();
+
                             newProduct.PropertyChanged += Product_PropertyChanged;
                             _allProducts.Add(newProduct);
-                            UpdateCategories();
-                            FilterProductsAsync();
+                            UpdateCategories(); FilterProductsAsync();
                         }
-                        catch (Exception ex)
-                        {
-                            MessageBox.Show($"Ошибка при добавлении в БД: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
-                        }
+                        catch (Exception ex) { MessageBox.Show(ex.Message); }
                     },
                     undo: async () =>
                     {
                         try
                         {
-                            await _repository.DeleteProductAsync(newProduct.Id);
+                            _unitOfWork.Products.Delete(newProduct);
+                            await _unitOfWork.SaveAsync();
+
                             _allProducts.Remove(newProduct);
-                            UpdateCategories();
-                            FilterProductsAsync();
+                            UpdateCategories(); FilterProductsAsync();
                         }
-                        catch (Exception ex)
-                        {
-                            MessageBox.Show($"Ошибка при отмене добавления: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
-                        }
+                        catch (Exception ex) { MessageBox.Show(ex.Message); }
                     }
                 );
 
@@ -248,21 +204,13 @@ namespace WpfApp1.ShopApp.ModelView
             }
         }
 
-        private void ExecuteEdit(object obj)
+        private async void ExecuteEdit(object obj)
         {
-            var oldProduct = new Product
-            {
-                Id = SelectedProduct.Id,
-                Title = SelectedProduct.Title,
-                Description = SelectedProduct.Description,
-                Category = SelectedProduct.Category,
-                Price = SelectedProduct.Price,
-                Discount = SelectedProduct.Discount,
-                StockQuantity = SelectedProduct.StockQuantity,
-                MainImagePath = SelectedProduct.MainImagePath
-            };
+            var categoriesDb = (await _unitOfWork.Categories.GetAllAsync()).ToList();
 
-            var editVM = new AddEditProductViewModel(SelectedProduct);
+            var oldProduct = new Product { Id = SelectedProduct.Id, Title = SelectedProduct.Title, Price = SelectedProduct.Price, CategoryId = SelectedProduct.CategoryId, ImageData = SelectedProduct.ImageData, StockQuantity = SelectedProduct.StockQuantity, Discount = SelectedProduct.Discount, Description = SelectedProduct.Description };
+
+            var editVM = new AddEditProductViewModel(SelectedProduct, categoriesDb);
             var window = new AddEditProductWindow { DataContext = editVM };
             window.ShowDialog();
 
@@ -271,18 +219,44 @@ namespace WpfApp1.ShopApp.ModelView
                 var editedProduct = editVM.CurrentProduct;
                 int index = _allProducts.IndexOf(SelectedProduct);
 
+                var trackedProduct = _allProducts[index];
+
                 var action = new DelegateAction(
                     execute: async () =>
                     {
-                        await _repository.UpdateProductAsync(editedProduct);
-                        _allProducts[index] = editedProduct;
-                        UpdateCategories(); FilterProductsAsync();
+                        try
+                        {
+                            trackedProduct.Title = editedProduct.Title;
+                            trackedProduct.Description = editedProduct.Description;
+                            trackedProduct.CategoryId = editedProduct.CategoryId;
+                            trackedProduct.Price = editedProduct.Price;
+                            trackedProduct.Discount = editedProduct.Discount;
+                            trackedProduct.StockQuantity = editedProduct.StockQuantity;
+                            trackedProduct.ImageData = editedProduct.ImageData;
+
+                            await _unitOfWork.SaveAsync();
+
+                            UpdateCategories(); FilterProductsAsync();
+                        }
+                        catch (Exception ex) { MessageBox.Show(ex.Message); }
                     },
                     undo: async () =>
                     {
-                        await _repository.UpdateProductAsync(oldProduct);
-                        _allProducts[index] = oldProduct;
-                        UpdateCategories(); FilterProductsAsync();
+                        try
+                        {
+                            trackedProduct.Title = oldProduct.Title;
+                            trackedProduct.CategoryId = oldProduct.CategoryId;
+                            trackedProduct.Price = oldProduct.Price;
+                            trackedProduct.Discount = oldProduct.Discount;
+                            trackedProduct.StockQuantity = oldProduct.StockQuantity;
+                            trackedProduct.ImageData = oldProduct.ImageData;
+                            trackedProduct.Description = oldProduct.Description;
+
+                            await _unitOfWork.SaveAsync();
+
+                            UpdateCategories(); FilterProductsAsync();
+                        }
+                        catch (Exception ex) { MessageBox.Show(ex.Message); }
                     }
                 );
 
@@ -298,15 +272,25 @@ namespace WpfApp1.ShopApp.ModelView
             var action = new DelegateAction(
                 execute: async () =>
                 {
-                    await _repository.DeleteProductAsync(productToDelete.Id);
-                    _allProducts.Remove(productToDelete);
-                    UpdateCategories(); FilterProductsAsync();
+                    try
+                    {
+                        _unitOfWork.Products.Delete(productToDelete);
+                        await _unitOfWork.SaveAsync();
+                        _allProducts.Remove(productToDelete);
+                        UpdateCategories(); FilterProductsAsync();
+                    }
+                    catch (Exception ex) { MessageBox.Show(ex.Message); }
                 },
                 undo: async () =>
                 {
-                    await _repository.AddProductAsync(productToDelete);
-                    _allProducts.Insert(index, productToDelete);
-                    UpdateCategories(); FilterProductsAsync();
+                    try
+                    {
+                        await _unitOfWork.Products.AddAsync(productToDelete);
+                        await _unitOfWork.SaveAsync();
+                        _allProducts.Insert(index, productToDelete);
+                        UpdateCategories(); FilterProductsAsync();
+                    }
+                    catch (Exception ex) { MessageBox.Show(ex.Message); }
                 }
             );
 
@@ -319,12 +303,10 @@ namespace WpfApp1.ShopApp.ModelView
             {
                 try
                 {
-                    await _repository.UpdateProductAsync(changedProduct);
+                    _unitOfWork.Products.Update(changedProduct);
+                    await _unitOfWork.SaveAsync();
                 }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Ошибка при сохранении рейтинга: {ex.Message}");
-                }
+                catch { }
             }
         }
     }
