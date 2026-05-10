@@ -1,0 +1,24 @@
+[
+  {
+    "ContainingType": "ANC25_WEBAPI_DLL.CelebritiesExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPhotoCelebrities\u003Eb__2_0",
+    "RelativePath": "Photos/{fname}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fname",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

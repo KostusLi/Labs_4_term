@@ -20,7 +20,6 @@ var app = builder.Build();
 
 app.UseMiddleware<ErrorHandlerMiddleware>();
 
-// --------- ЗНАМЕНИТОСТИ (Celebrities) -------------------
 var celebrities = app.MapGroup("/api/Celebrities");
 
 // все знаменитости
@@ -125,5 +124,7 @@ lifeevents.MapPut("/{id:int:min(1)}", (IRepository repo, int id, Lifeevent lifee
     return isUpdated ? Results.Ok(lifeevent) : Results.NotFound();
 });
 
+app.UseDefaultFiles();
+app.UseStaticFiles();
 
 app.Run();

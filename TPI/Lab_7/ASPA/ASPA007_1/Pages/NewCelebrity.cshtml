@@ -1,0 +1,44 @@
+﻿@page
+@using Microsoft.Extensions.Options
+@model ASPA007_1.Pages.NewCelebrityModel;
+@inject IOptions<CelebritiesConfig> Config;
+@{
+}
+
+<h1>New Celebrity</h1>
+
+@if (string.IsNullOrEmpty(Model.FileName))
+{
+    <form method="post" enctype="multipart/form-data">
+        <div style="display: inline">
+            <input type="text" name="FullName" placeholder="Имя" required />
+            <input type="text" name="Nationality" placeholder="Национальность" required />
+        </div>
+        <div style="margin-top: 10px;">
+            <input type="file" name="UploadedFile" required />
+        </div>
+        <div style="margin-top: 10px;">
+            <button type="submit" asp-page-handler="Upload">OK</button>
+            <button type="submit" asp-page-handler="Cancel" formnovalidate>CANCEL</button>
+        </div>
+    </form>
+}
+else
+{
+    <div style="margin-bottom: 20px;">
+        <img src="@Config.Value.PhotoRequestPath/@Model.FileName" style="width: 200px;" />
+        <p><strong>Name:</strong> @Model.FullName</p>
+        <p><strong>Nationality:</strong> @Model.Nationality</p>
+    </div>
+
+    <form method="post">
+        <input type="hidden" name="FullName" value="@Model.FullName" />
+        <input type="hidden" name="Nationality" value="@Model.Nationality" />
+        <input type="hidden" name="Filename" value="@Model.FileName" />
+
+        <div>
+            <button type="submit" asp-page-handler="Confirm">CONFIRMATION</button>
+            <button type="submit" asp-page-handler="Cancel">CANCEL</button>
+        </div>
+    </form>
+}

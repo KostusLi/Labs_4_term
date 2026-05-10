@@ -1,0 +1,8 @@
+{
+  "Celebrities": {
+    "PhotoRequestPath": "/Photos",
+    "PhotosFolder": "D:\\Labs_4_sem\\TPI\\Lab_8\\ASPA\\ASPA008_1\\bin\\Debug\\net8.0\\Photos",
+    "ConnectionString": "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=LES01;Trusted_Connection=True;TrustServerCertificate=True;",
+    "ISO3166alpha2Path": ".\\CountryCodes\\iso3166-1-alpha2-country-codes.json"
+  }
+}

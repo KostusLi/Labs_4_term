@@ -1,0 +1,13 @@
+﻿@page
+@using Microsoft.Extensions.Options
+@model ASPA007_1.Pages.CelebrityModel
+@inject IOptions<CelebritiesConfig> Config;
+
+@{
+    
+}
+
+<div style="display: inline">
+    <img src="@Config.Value.PhotoRequestPath/@Model.currentCelebrity?.ReqPhotoPath"/>
+    <p>@Model.currentCelebrity.FullName</p>
+</div>

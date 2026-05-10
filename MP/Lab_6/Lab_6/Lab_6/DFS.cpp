@@ -47,7 +47,7 @@ void DFS::visit(int u)
 int DFS::get(int i)
 {
     int j = 0, min1 = INF, min2 = NINF, ntx = NIL;
-    for (int j = 0; j <= i; j++) // iая статистика 
+    for (int j = 0; j <= i; j++) 
     {
         for (int k = 0; k < this->al->n_vertex; k++)
             if (this->f[k] < min1 && this->f[k] > min2)

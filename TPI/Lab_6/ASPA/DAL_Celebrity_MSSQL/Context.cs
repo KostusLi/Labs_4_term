@@ -26,7 +26,6 @@ namespace DAL_Celebrity_MSSQL
         {
             if (this.ConnectionString is null)
             {
-                // Заглушка, если строка не передана (лучше брать из конфига)
                 this.ConnectionString = @"Data Source=localhost;Initial Catalog=LES01;TrustServerCertificate=True;User Id=sa;Password=your_password";
             }
             optionsBuilder.UseSqlServer(this.ConnectionString);
@@ -34,17 +33,14 @@ namespace DAL_Celebrity_MSSQL
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Настройка таблицы Celebrities
             modelBuilder.Entity<Celebrity>().ToTable("Celebrities").HasKey(p => p.Id);
             modelBuilder.Entity<Celebrity>().Property(p => p.Id).IsRequired();
             modelBuilder.Entity<Celebrity>().Property(p => p.FullName).IsRequired().HasMaxLength(50);
             modelBuilder.Entity<Celebrity>().Property(p => p.Nationality).IsRequired().HasMaxLength(2);
             modelBuilder.Entity<Celebrity>().Property(p => p.ReqPhotoPath).HasMaxLength(200);
 
-            // Настройка таблицы Lifeevents
             modelBuilder.Entity<Lifeevent>().ToTable("Lifeevents").HasKey(p => p.Id);
             modelBuilder.Entity<Lifeevent>().Property(p => p.Id).IsRequired();
-            // Связь один ко многим
             modelBuilder.Entity<Lifeevent>().HasOne<Celebrity>().WithMany().HasForeignKey(p => p.CelebrityId);
             modelBuilder.Entity<Lifeevent>().Property(p => p.CelebrityId).IsRequired();
             modelBuilder.Entity<Lifeevent>().Property(p => p.Date);

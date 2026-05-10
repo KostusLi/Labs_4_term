@@ -1,0 +1,30 @@
+﻿@page
+@using DAL_Celebrity_MSSQL;
+@using Microsoft.Extensions.Options;
+@inject IOptions<CelebritiesConfig> Config
+@model IndexModel
+@{
+    ViewData["Title"] = "Celebrities";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/main.css" asp-append-version="true"/>
+</head>
+<h1>Celebrities</h1>
+
+<div class="main">
+    <a asp-page="/NewCelebrity">
+        <img src="images/Brilliant.jpg"/>
+        <p>Гнилая цыпленок</p>
+    </a>
+</div>
+@foreach(Celebrity celebrity in Model.Celebrities)
+{
+    <div class="main">
+        <a asp-page="/Celebrity" asp-route-id="@celebrity.Id">
+        <img src="@Config.Value.PhotoRequestPath/@celebrity.ReqPhotoPath" alt="@celebrity.FullName" />
+        <p>@celebrity.FullName</p>
+        </a>
+    </div>
+}
+

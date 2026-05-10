@@ -1,0 +1,47 @@
+﻿@model ASPA008_1.Controllers.CelebritiesController.IndexModel
+
+@section subhead
+{
+    <h2>Celebrities</h2>
+}
+
+<style>
+    .celebrity-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .celebrity-item img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        transition: transform 0.2s;
+    }
+
+        .celebrity-item img:hover {
+            transform: scale(1.05);
+        }
+</style>
+
+<div class="celebrity-list">
+    <div class="celebrity-item">
+        @Html.CelebrityPhoto(0, "New Celebrity", $"{Model.photosrequestpath}/NewCelebrity.jpg")
+    </div>
+
+    @foreach (var c in Model.celebrities)
+    {
+        <div class="celebrity-item">
+            @Html.CelebrityPhoto(c.Id, c.FullName, $"{Model.photosrequestpath}/{c.ReqPhotoPath}")
+        </div>
+    }
+</div>
+
+@section foot
+{
+    @* <h2>FOOT</h2> *@
+}

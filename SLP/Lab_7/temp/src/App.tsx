@@ -1,28 +1,30 @@
-import { AuthProvider, useAuth } from './AuthContext';
-import { ProductProvider } from './ProductContext';
-import { RegistrationForm } from './RegistrationForm';
-import { CatalogPage } from './CatalogPage';
+import { useEffect } from 'react';
+import { useAuth } from './AuthContext';
+import { RouterProvider, createRouter } from '@tanstack/react-router';
+import { routeTree } from './routeTree.gen';
 
-const Root = () => {
-  const { isAuthenticated } = useAuth();
+const router = createRouter({ 
+  routeTree, 
+  context: { auth: undefined! } 
+});
 
-  return (
-    <>
-      {isAuthenticated ? (
-        <ProductProvider>
-          <CatalogPage />
-        </ProductProvider>
-      ) : (
-        <RegistrationForm />
-      )}
-    </>
-  );
-};
+declare module '@tanstack/react-router' {
+  interface Register {
+    router: typeof router
+  }
+}
 
 export default function App() {
+  const auth = useAuth();
+
+  useEffect(() => {
+    router.invalidate();
+  }, [auth.isAuthenticated]);
+
   return (
-    <AuthProvider>
-      <Root />
-    </AuthProvider>
+    <RouterProvider 
+      router={router} 
+      context={{ auth }}
+    />
   );
 }

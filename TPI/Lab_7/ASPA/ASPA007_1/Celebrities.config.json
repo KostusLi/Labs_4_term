@@ -1,0 +1,7 @@
+{
+  "Celebrities": {
+    "PhotoRequestPath": "/Photos",
+    "PhotosFolder": "D:\\Labs_4_sem\\TPI\\Lab_7\\ASPA\\ASPA007_1\\bin\\Debug\\net8.0\\Photos",
+    "ConnectionString": "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=LES01;Trusted_Connection=True;TrustServerCertificate=True;"
+  }
+}

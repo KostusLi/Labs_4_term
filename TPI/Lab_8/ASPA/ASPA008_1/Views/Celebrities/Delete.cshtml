@@ -1,0 +1,40 @@
+﻿@using ANC25_WEBAPI_DLL
+@model DAL_Celebrity_MSSQL.Celebrity
+@inject CountryCodes Countries
+
+@{
+    ViewData["Title"] = "Delete Celebrity";
+    var country = Countries.Codes.FirstOrDefault(c => c.code == Model.Nationality);
+    string countryName = country != null ? country.countryLabel : Model.Nationality;
+}
+
+@section subhead {
+    <h2>Delete Celebrity</h2>
+}
+
+<div class="row" style="background-color: #d1a570; padding: 20px; border-radius: 5px;">
+    <div class="col-3">
+        <img src="@ViewBag.PhotoPath/@Model.ReqPhotoPath" style="width: 100%; border: 3px solid white;" />
+    </div>
+
+    <div class="col-9">
+        <div class="row mb-3">
+            <div class="col-8 bg-light border p-2">@Model.FullName</div>
+            <div class="col-4 bg-light border p-2">@countryName</div>
+        </div>
+
+        @using (Html.BeginForm("DeleteConfirmed", "Celebrities", FormMethod.Post))
+        {
+            <input type="hidden" name="id" value="@Model.Id" />
+            <input type="hidden" name="fileName" value="@Model.ReqPhotoPath" />
+
+            <div class="row">
+                <button class="col-12 btn btn-light border mb-2" type="submit">DELETE CONFIRMATION</button>
+                <button class="col-12 btn btn-light border" type="button" onclick="location.href='/{ @Model.Id }'">CANCEL</button>
+            </div>
+        }
+    </div>
+</div>
+
+@section foot {
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "ASPA007_1.CelebritiesExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCelebrities\u003Eb__3_0",
+    "RelativePath": "api/Celebrities",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DAL_Celebrity_MSSQL.Celebrity, DAL_Celebrity_MSSQL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ASPA007_1.CelebritiesExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapLifeevents\u003Eb__4_0",
+    "RelativePath": "api/Lifeevents",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DAL_Celebrity_MSSQL.Lifeevent, DAL_Celebrity_MSSQL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ASPA007_1.CelebritiesExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPhotoCelebrities\u003Eb__2_0",
+    "RelativePath": "Photos/{fname}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fname",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

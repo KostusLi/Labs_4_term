@@ -14,8 +14,8 @@ namespace DAL_Celebrity_MSSQL
         public static void Execute(bool delete = true, bool create = true)
         {
             Context context = new Context(connstring);
-            if (delete) context.Database.EnsureDeleted();   // если есть БД, то она удаляется
-            if (create) context.Database.EnsureCreated();   // если нет  БД, то содается 
+            if (delete) context.Database.EnsureDeleted();
+            if (create) context.Database.EnsureCreated();
 
 
             Func<string, string> puri = (string f) => $"{f}";

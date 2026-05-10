@@ -80,3 +80,4 @@ D:\Labs_4_sem\TPI\Lab_6\ASPA\ASPA006_1\obj\Debug\net8.0\refint\ASPA006_1.dll
 D:\Labs_4_sem\TPI\Lab_6\ASPA\ASPA006_1\obj\Debug\net8.0\ASPA006_1.pdb
 D:\Labs_4_sem\TPI\Lab_6\ASPA\ASPA006_1\obj\Debug\net8.0\ASPA006_1.genruntimeconfig.cache
 D:\Labs_4_sem\TPI\Lab_6\ASPA\ASPA006_1\obj\Debug\net8.0\ref\ASPA006_1.dll
+D:\Labs_4_sem\TPI\Lab_6\ASPA\ASPA006_1\bin\Debug\net8.0\ASPA006_1.staticwebassets.runtime.json

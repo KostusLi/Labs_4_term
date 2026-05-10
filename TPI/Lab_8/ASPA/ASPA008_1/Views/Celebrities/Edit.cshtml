@@ -1,0 +1,54 @@
+﻿@using ANC25_WEBAPI_DLL
+@model DAL_Celebrity_MSSQL.Celebrity
+@inject CountryCodes Countries
+
+@{
+    ViewData["Title"] = "Edit Celebrity";
+    SelectList slcoutries = new SelectList(Countries.Codes, "code", "countryLabel", Model.Nationality);
+}
+
+@section subhead {
+    <h2>Edit Celebrity</h2>
+}
+
+<div class="row" style="background-color: #d1a570; padding: 20px; border-radius: 5px;">
+    <div class="col-3">
+        <img src="@ViewBag.PhotoPath/@Model.ReqPhotoPath" style="width: 100%; border: 3px solid white;" />
+    </div>
+
+    <div class="col-9">
+        @using (Html.BeginForm("Edit", "Celebrities", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <input type="hidden" name="id" value="@Model.Id" />
+            <input type="hidden" name="oldFileName" value="@Model.ReqPhotoPath" />
+
+            <div class="row mb-3">
+                @Html.TextBox("FullName", Model.FullName, new { @class = "col-8", required = "true" })
+                @Html.DropDownList("Nationality", slcoutries, new { @class = "col-4" })
+            </div>
+
+            <div class="row mb-3">
+                <input id="upload" name="upload" type="file" style="display:none;" accept="image/jpeg" onchange="onChange(this)" />
+                <button class="col-12 border bg-light" id="butupload" type="button" onclick="document.getElementById('upload').click()">
+                    Change Photo
+                </button>
+            </div>
+
+            <div class="row">
+                <button class="col-6 btn btn-light border" type="submit">OK</button>
+                <button class="col-6 btn btn-light border" type="button" onclick="location.href='/{ @Model.Id }'">CANCEL</button>
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    function onChange(e) {
+        if(e.value != '') {
+            document.getElementById('butupload').innerText = e.value.split('\\').pop();
+        }
+    }
+</script>
+
+@section foot {
+}

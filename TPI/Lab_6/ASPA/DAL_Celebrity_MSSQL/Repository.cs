@@ -14,7 +14,6 @@ namespace DAL_Celebrity_MSSQL
         public static IRepository Create() { return new Repository(); }
         public static IRepository Create(string connectionstring) { return new Repository(connectionstring); }
 
-        // --- Методы для Celebrities ---
         public List<Celebrity> GetAllCelebrities() { return this.context.Celebrities.ToList<Celebrity>(); }
 
         public Celebrity? GetCelebrityById(int id)

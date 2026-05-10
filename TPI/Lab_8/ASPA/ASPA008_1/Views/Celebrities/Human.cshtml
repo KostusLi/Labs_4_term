@@ -1,0 +1,110 @@
+﻿@using DAL_Celebrity_MSSQL
+@model Celebrity
+
+@section subhead
+{
+    <h2>Celebrties Dictionary Internet Service</h2>
+}
+
+<style>
+    .profile-card {
+        background-color: #d1a570;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .profile-photo {
+        width: 100%;
+        border: 3px solid white;
+    }
+
+    .profile-name {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .profile-events-table {
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+    .event-date-col {
+        width: 30%;
+    }
+
+    .wiki-links-container {
+        margin-top: 20px;
+    }
+
+    .wiki-link {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+
+        .wiki-link:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
+</style>
+
+<div class="row profile-card">
+    <div class="col-3">
+        <img src="@ViewBag.PhotoPath/@Model.ReqPhotoPath" alt="@Model.FullName" class="profile-photo" />
+    </div>
+
+    <div class="col-7">
+        <h3 class="profile-name">@Model.FullName</h3>
+        
+        @if (ViewBag.LifeEvents != null)
+        {
+            <table class="table table-sm table-borderless profile-events-table">
+                @foreach (Lifeevent ev in ViewBag.LifeEvents)
+                {
+                    <tr>
+                        <td class="event-date-col">@(ev.Date?.ToString("dd.MM.yyyy") ?? "—")</td>
+                        <td>@ev.Description</td>
+                    </tr>
+                }
+            </table>
+        }
+    </div>
+
+    <div class="col-2 text-end">
+        <a href="/Celebrities/Edit/@Model.Id" class="btn btn-sm btn-light border">Edit</a>
+        <a href="/Celebrities/Delete/@Model.Id" class="btn btn-sm btn-light border">Delete</a>
+    </div>
+</div>
+
+<div class="row wiki-links-container">
+    <div class="col-12">
+        @if (Context.Items.ContainsKey("WIKI"))
+        {
+            var wikiLinks = Context.Items["WIKI"] as Dictionary<string, string>;
+
+            if (wikiLinks != null && wikiLinks.Count > 0)
+            {
+                <table class="table table-bordered text-center">
+                    <tbody>
+                        @foreach (var item in wikiLinks)
+                        {
+                            <tr>
+                                <td>
+                                    <a href="@item.Value" target="_blank" class="wiki-link">@item.Key</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p class="text-center text-muted">Информация в Wikipedia не найдена.</p>
+            }
+        }
+    </div>
+</div>
+
+@section foot
+{
+}

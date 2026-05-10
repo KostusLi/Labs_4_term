@@ -1,0 +1,32 @@
+﻿@using ANC25_WEBAPI_DLL
+@inject CelerbrityTitles titles
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@titles.Head</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-append-version="true" rel="stylesheet" />
+    <link href="~/css/Celebrities.css" asp-append-version="true" rel="stylesheet" />
+</head>
+<body>
+    <h1>@titles.Head</h1>
+    <div class="row">
+        <span class="col-2">
+            <a href="/" style="margin-left: 10px;"> Home </a>
+            <a href="/" style="margin-left: 10px;"> Life Events </a>
+        </span>
+        <span class="col-4"></span>
+        @* <form class="col-5" method="post"> ... </form> *@
+        <span class="col-1"></span>
+    </div>
+    <hr />
+    @RenderSection("subhead", false)
+    <div> @RenderBody() </div>
+    @RenderSection("foot", false)
+    <hr />
+    &#169; @titles.Copyright
+    <environment include="Development,Staging">
+        <i>Development</i>
+    </environment>
+</body>
+</html>
