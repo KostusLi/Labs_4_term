@@ -1,0 +1,15 @@
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\LockExmaples\bin\Debug\net10.0\LockExmaples.exe
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\LockExmaples\bin\Debug\net10.0\LockExmaples.deps.json
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\LockExmaples\bin\Debug\net10.0\LockExmaples.runtimeconfig.json
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\LockExmaples\bin\Debug\net10.0\LockExmaples.dll
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\LockExmaples\bin\Debug\net10.0\LockExmaples.pdb
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\LockExmaples\obj\Debug\net10.0\LockExmaples.GeneratedMSBuildEditorConfig.editorconfig
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\LockExmaples\obj\Debug\net10.0\LockExmaples.AssemblyInfoInputs.cache
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\LockExmaples\obj\Debug\net10.0\LockExmaples.AssemblyInfo.cs
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\LockExmaples\obj\Debug\net10.0\LockExmaples.csproj.CoreCompileInputs.cache
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\LockExmaples\obj\Debug\net10.0\LockExmaples.sourcelink.json
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\LockExmaples\obj\Debug\net10.0\LockExmaples.dll
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\LockExmaples\obj\Debug\net10.0\refint\LockExmaples.dll
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\LockExmaples\obj\Debug\net10.0\LockExmaples.pdb
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\LockExmaples\obj\Debug\net10.0\LockExmaples.genruntimeconfig.cache
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\LockExmaples\obj\Debug\net10.0\ref\LockExmaples.dll

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Deadlock/Deadlock.csproj" />
+  <Project Path="LockExmaples/LockExmaples.csproj" />
+</Solution>

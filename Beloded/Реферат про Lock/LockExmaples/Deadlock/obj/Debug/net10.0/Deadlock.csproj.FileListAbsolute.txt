@@ -1,0 +1,15 @@
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\Deadlock\bin\Debug\net10.0\Deadlock.exe
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\Deadlock\bin\Debug\net10.0\Deadlock.deps.json
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\Deadlock\bin\Debug\net10.0\Deadlock.runtimeconfig.json
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\Deadlock\bin\Debug\net10.0\Deadlock.dll
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\Deadlock\bin\Debug\net10.0\Deadlock.pdb
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\Deadlock\obj\Debug\net10.0\Deadlock.GeneratedMSBuildEditorConfig.editorconfig
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\Deadlock\obj\Debug\net10.0\Deadlock.AssemblyInfoInputs.cache
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\Deadlock\obj\Debug\net10.0\Deadlock.AssemblyInfo.cs
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\Deadlock\obj\Debug\net10.0\Deadlock.csproj.CoreCompileInputs.cache
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\Deadlock\obj\Debug\net10.0\Deadlock.sourcelink.json
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\Deadlock\obj\Debug\net10.0\Deadlock.dll
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\Deadlock\obj\Debug\net10.0\refint\Deadlock.dll
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\Deadlock\obj\Debug\net10.0\Deadlock.pdb
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\Deadlock\obj\Debug\net10.0\Deadlock.genruntimeconfig.cache
+D:\Labs_4_sem\Beloded\Реферат про Lock\LockExmaples\Deadlock\obj\Debug\net10.0\ref\Deadlock.dll

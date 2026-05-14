@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Labs_4_sem\\Beloded\\\u0420\u0435\u0444\u0435\u0440\u0430\u0442 \u043F\u0440\u043E Lock\\LockExmaples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F9E7CB7-2C00-4513-83EA-972BA73A2892}|Deadlock\\Deadlock.csproj|d:\\labs_4_sem\\beloded\\\u0440\u0435\u0444\u0435\u0440\u0430\u0442 \u043F\u0440\u043E lock\\lockexmaples\\deadlock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F9E7CB7-2C00-4513-83EA-972BA73A2892}|Deadlock\\Deadlock.csproj|solutionrelative:deadlock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1364AD22-A702-450E-9FAA-782586090287}|LockExmaples\\LockExmaples.csproj|d:\\labs_4_sem\\beloded\\\u0440\u0435\u0444\u0435\u0440\u0430\u0442 \u043F\u0440\u043E lock\\lockexmaples\\lockexmaples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1364AD22-A702-450E-9FAA-782586090287}|LockExmaples\\LockExmaples.csproj|solutionrelative:lockexmaples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 816,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\Beloded\\\u0420\u0435\u0444\u0435\u0440\u0430\u0442 \u043F\u0440\u043E Lock\\LockExmaples\\Deadlock\\Program.cs",
+              "RelativeDocumentMoniker": "Deadlock\\Program.cs",
+              "ToolTip": "D:\\Labs_4_sem\\Beloded\\\u0420\u0435\u0444\u0435\u0440\u0430\u0442 \u043F\u0440\u043E Lock\\LockExmaples\\Deadlock\\Program.cs",
+              "RelativeToolTip": "Deadlock\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T11:52:00.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Labs_4_sem\\Beloded\\\u0420\u0435\u0444\u0435\u0440\u0430\u0442 \u043F\u0440\u043E Lock\\LockExmaples\\LockExmaples\\Program.cs",
+              "RelativeDocumentMoniker": "LockExmaples\\Program.cs",
+              "ToolTip": "D:\\Labs_4_sem\\Beloded\\\u0420\u0435\u0444\u0435\u0440\u0430\u0442 \u043F\u0440\u043E Lock\\LockExmaples\\LockExmaples\\Program.cs",
+              "RelativeToolTip": "LockExmaples\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowE4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T11:50:38.818Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
