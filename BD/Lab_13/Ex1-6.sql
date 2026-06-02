@@ -91,14 +91,14 @@ go
 --5
 go
 create procedure subject_report
-    @p nchar(10)
+    @p nvarchar(10)
 as
 begin
     declare @subject_list nvarchar(max) = N'';
-    declare @sub nchar(10);
+    declare @sub nvarchar(10);
     declare @counter int = 0;
 
-    if not exists (select * from pulpit where pulpit = @p)
+    if not exists (select * from PULPIT where PULPIT.PULPIT = @p)
     begin
         raiserror(N'ошибка в параметрах: такой кафедры не существует!', 11, 1);
         return -1;
@@ -127,7 +127,7 @@ declare @rc int;
 begin try
     exec @rc = subject_report @p = N'ИСиТ';
     print N'возвращено дисциплин: ' + cast(@rc as varchar);
-    exec @rc = subject_report @p = N'НЛО';
+    exec @rc = subject_report @p = N'ХЗ';
 end try
 begin catch
     print N'перехвачена ошибка: ';
@@ -185,3 +185,4 @@ print N'результат сложной вставки: ' + cast(@res as varch
 delete from auditorium where auditorium = N'888-8';
 delete from auditorium_type where auditorium_type = N'СУПЕР';
 go
+
